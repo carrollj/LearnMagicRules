@@ -1,0 +1,21 @@
+# 6. Spells, Abilities, and Effects
+
+[Back to full index](../README.md)
+
+- [600. General](600-general.md)
+- [601. Casting Spells](601-casting-spells.md)
+- [602. Activating Activated Abilities](602-activating-activated-abilities.md)
+- [603. Handling Triggered Abilities](603-handling-triggered-abilities.md)
+- [604. Handling Static Abilities](604-handling-static-abilities.md)
+- [605. Mana Abilities](605-mana-abilities.md)
+- [606. Loyalty Abilities](606-loyalty-abilities.md)
+- [607. Linked Abilities](607-linked-abilities.md)
+- [608. Resolving Spells and Abilities](608-resolving-spells-and-abilities.md)
+- [609. Effects](609-effects.md)
+- [610. One-Shot Effects](610-one-shot-effects.md)
+- [611. Continuous Effects](611-continuous-effects.md)
+- [612. Text-Changing Effects](612-text-changing-effects.md)
+- [613. Interaction of Continuous Effects](613-interaction-of-continuous-effects.md)
+- [614. Replacement Effects](614-replacement-effects.md)
+- [615. Prevention Effects](615-prevention-effects.md)
+- [616. Interaction of Replacement and/or Prevention Effects](616-interaction-of-replacement-and-or-prevention-effects.md)

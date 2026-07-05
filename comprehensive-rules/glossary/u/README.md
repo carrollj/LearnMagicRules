@@ -1,0 +1,22 @@
+# U Glossary Entries
+
+[Back to glossary index](../README.md)
+
+- [Umbra Armor](umbra-armor.md)
+- [Unattach](unattach.md)
+- [Unblockable (Obsolete)](unblockable-obsolete.md)
+- [Unblocked Creature](unblocked-creature.md)
+- [Undaunted](undaunted.md)
+- [Undying](undying.md)
+- [Unearth](unearth.md)
+- [Unflipped](unflipped.md)
+- [Unleash](unleash.md)
+- [Unless](unless.md)
+- [Unlock](unlock.md)
+- [Unlocked](unlocked.md)
+- [Unprepared](unprepared.md)
+- [Untap](untap.md)
+- [Untap Step](untap-step.md)
+- [Untap Symbol](untap-symbol.md)
+- [Untapped](untapped.md)
+- [Upkeep Step](upkeep-step.md)

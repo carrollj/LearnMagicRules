@@ -1,0 +1,21 @@
+# H Glossary Entries
+
+[Back to glossary index](../README.md)
+
+- [Hand](hand.md)
+- [Hand Modifier](hand-modifier.md)
+- [Harmonize](harmonize.md)
+- [Harness](harness.md)
+- [Harnessed](harnessed.md)
+- [Haste](haste.md)
+- [Haunt](haunt.md)
+- [Heal](heal.md)
+- [Hexproof](hexproof.md)
+- [Hidden Agenda](hidden-agenda.md)
+- [Hidden Zone](hidden-zone.md)
+- [Hideaway](hideaway.md)
+- [Historic](historic.md)
+- [Horsemanship](horsemanship.md)
+- [Hybrid Card](hybrid-card.md)
+- [Hybrid Mana Symbols](hybrid-mana-symbols.md)
+- [Hybrid Phyrexian Mana Symbols](hybrid-phyrexian-mana-symbols.md)

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Magic Rules Browser</title>
+  <link rel="stylesheet" href="./assets/app.css?v=20260705a">
+</head>
+<body>
+  <div class="app-shell" id="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <header class="sidebar-header">
+        <button type="button" class="drawer-toggle" id="drawer-toggle" aria-expanded="false" aria-controls="sidebar-content" aria-label="Toggle sidebar" title="Toggle sidebar">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M4 7h16"></path>
+            <path d="M4 12h16"></path>
+            <path d="M4 17h16"></path>
+          </svg>
+        </button>
+        <div class="sidebar-brand">
+          <h1>Magic Rules Browser</h1>
+          <p id="effective-date">Generated rules reference</p>
+        </div>
+        <button type="button" class="sidebar-collapse-toggle" id="sidebar-collapse-toggle" aria-pressed="false" aria-label="Collapse sidebar" title="Collapse sidebar"></button>
+      </header>
+      <nav id="sidebar-content" class="sidebar-content" aria-label="Rules navigation"></nav>
+      <footer class="sidebar-footer">
+        <button type="button" class="theme-toggle-switch" id="theme-toggle" aria-pressed="false" aria-label="Set dark mode" title="Toggle theme">
+          <span class="theme-track" aria-hidden="true"></span>
+          <span class="theme-thumb" aria-hidden="true">
+            <span class="theme-icon theme-icon--sun" aria-hidden="true">☀</span>
+            <span class="theme-icon theme-icon--moon" aria-hidden="true">☾</span>
+          </span>
+        </button>
+      </footer>
+    </aside>
+    <main class="workspace" id="workspace">
+      <section id="main-view" class="main-view" aria-live="polite">
+        <div class="loading-state">Loading generated content…</div>
+      </section>
+    </main>
+  </div>
+  <div id="tooltip-root" class="tooltip-root" hidden></div>
+  <script type="module" src="./assets/app.js?v=20260705a"></script>
+</body>
+</html>
