@@ -1,0 +1,3546 @@
+[
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\abandon.json",
+        "Hash":  "D8A08572A74BC8AD3B39F7306E0109EEDB2E58BB117E2C64FE64693733B8720C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\ability.json",
+        "Hash":  "C84214884CF01BB356BF12A770C541E55B94E154C2C8F5F4A11EE87396728D26"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\ability-word.json",
+        "Hash":  "6F4ED55327441806955566D907D756E5F72E9EB8AA3FD734F9CA89B9134F20EA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\absorb.json",
+        "Hash":  "8AEE24635E3A6729F17C55B69E5EF65277A5B9DD61BDAD3EA5FE2D9ADB568C27"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\activate.json",
+        "Hash":  "5B580B12F1DDE25EBFFD0BD7A1C728CB3C3E9E6E2E352605F2DCFEB256501750"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\activated-ability.json",
+        "Hash":  "1CC147CA965E8B5F1E6B7457F97A1CB2A6F5629E63F107A118A20CA1307A48A7"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\activation-cost.json",
+        "Hash":  "24C3BC863A4ACF8CE6989EC78E8329F55F804302317D8311DCF8A74E1DDB5FBD"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\active-player.json",
+        "Hash":  "E6A41B5F8FE27AF3A31785E823C5CE0B041F698096010C47F6852A5FFFC3D58B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\active-player-nonactive-player-order.json",
+        "Hash":  "51CF44C3315B3A0D1664C02327F9F012D264213BBA6F10B6FD99488D8255F037"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\active-team.json",
+        "Hash":  "DEDD24CD128E0830E3AF70918423DEB3B64053F654AACEC484A59B4512330660"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\adapt.json",
+        "Hash":  "35025A5F2788B990DC955049287F2AEBB1025B0EF9C62E2DD1E885D2143F0DFB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\additional-cost.json",
+        "Hash":  "69FB9D59BF7EF9156E656EBE9F2CA82CF148A4314B4192F60D0A2BAFBA02232F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\adventurer-card.json",
+        "Hash":  "48295E4E621EB47227D348619AEEEB4DDF5AE87A62CA15D777BDB19173EE84FD"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\affinity.json",
+        "Hash":  "31E572C21743405D9FECA2598F589CC221079C10C8364E1DAD90BE01FD367885"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\afflict.json",
+        "Hash":  "DEF73D08FD482E079BCA907905132F1C89E93C1225C6E3EB44362F990C3B9DEC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\afterlife.json",
+        "Hash":  "F7F3CC6004D727C221DEABAD09CB21A37B25D68F94B582E8E0347FF822A145B7"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\aftermath.json",
+        "Hash":  "555C4F6F432487F3838BB1DD260ADFA4DECB09F41CCDA699E08F656707AE558E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\airbend.json",
+        "Hash":  "DC63E0453FC28D40992570AD89D783DDF2EC44A4AE141FBBF2C85FB91200AB56"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\alternate-name.json",
+        "Hash":  "171B149522D6FBD5B94AFD5AFEB3B881555BD054F105D0CC65056B42DA0527DF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\alternating-teams-variant.json",
+        "Hash":  "4AEEEDFBD0D9BFB828A2DF86AF6C2C8E7FDD2DE793D0BBDDF4ED0216A0FE3CB9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\alternative-cost.json",
+        "Hash":  "120EB4CA0CA2DEFCB3371235F8E2B9699FE84416169436169F57E1C520EC2DE9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\amass.json",
+        "Hash":  "A8675A37EBAB9A90B41A56BD9C922C002D28EEF0CD8972BAFD51F213B0B8D559"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\amplify.json",
+        "Hash":  "779D5EBAEA2E92C5B987DBAFCBD709F513090DD41B610F5B628087D84F1A4675"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\anchor-word.json",
+        "Hash":  "29CB165B92B96CE8CB2C2B1F6C8BBDB971706D7B49D30819CDDAE2A029381C51"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\annihilator.json",
+        "Hash":  "2010A2417C4892637AEF160664CA33AEF73AD72F17E917406FCC1C81A9344AE0"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\ante.json",
+        "Hash":  "CBBFF6EF765A06D2A4D9249ED884C4C9B62C51D3F5980F9DB843575D98DF4D27"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\any-target.json",
+        "Hash":  "33C40E8F397391AC57156511A268E9C4051CD90E885B8305D27A2DBC27E3A9CA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\apnap-order.json",
+        "Hash":  "5C97382B07B9891EE65DE955564E895D7B8449EDC87DD46874BAB5FEDACD1388"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\archenemy.json",
+        "Hash":  "B0F489981690EE3FB31E0F89EFFE8A15B2177DA7373E4CF5626A94780944E5D2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\archenemy-commander.json",
+        "Hash":  "A9F8CB7F8A147B49E718537A4AC455044268101719A133BB9A5F13D2791695BA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\artifact.json",
+        "Hash":  "C4F4DE37CFC6FE89564E3DA460D2B3579604C81D0B7588DFDF29B20A4236E25F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\artifact-creature.json",
+        "Hash":  "59F576A4A7CD820039CFE44C6B1ABBFF636C69F6952505FF97685DBF6C4BC84A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\artifact-land.json",
+        "Hash":  "E662D4480EF485A9E2FAE2C1196D6F6E66139573B2B0C38CF25BD650C9787BD6"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\artifact-type.json",
+        "Hash":  "AFCC1CB3259D29515C1800BF45D15E90AADC7597151D53A8475CED2225AE4A1C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\ascend.json",
+        "Hash":  "FC01AAB1754E534EC7F90EBF9CF1D1149EF09AFCE1CC4DCBAE086E56123BCDEA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\assemble.json",
+        "Hash":  "ED87BAD104E2148AE8739C2921387A4AD6966944BE884AA1908CEF3FDD4A1220"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\assign-combat-damage.json",
+        "Hash":  "CEA121DA9C7A80CF4F294FC677E866ECAEA3B34789E0F318C5C9762E6F838C5C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\assist.json",
+        "Hash":  "97E527795D48955C46BE936AA3B3B08E22024E76ECC658AF11C2F11B0E0DBABC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\as-though.json",
+        "Hash":  "79D4ACF33C2DFF0E6F4860B0830C8C6ED24F66C12921448F1C91F7480AAB29F0"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\at-end-of-turn-obsolete.json",
+        "Hash":  "ABAF7EAACEA013C43252DF667AE66795B678D0032CF08BB6B61524DE5AAF258A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\attach.json",
+        "Hash":  "0299BA0D1D7E68B85F2AA17B3098C7DCD111BB695692EAECB501F849B7EC2C25"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\attack.json",
+        "Hash":  "F0C92FFAAD876850657A55840972A37F9E5BEFD30BA52043C0EFFF44590E6D2D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\attack-alone.json",
+        "Hash":  "447D3079D6AD1ACB06302AA5B35D7EAF5B0CD67C1220C8F7B89DB41AF632C933"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\attacking-creature.json",
+        "Hash":  "C075FEC85B406ABF0C4FE12E1C1BE14B151F42B31E56BBB86C003649AA324C84"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\attacking-team.json",
+        "Hash":  "272F4C91ED3E03B8733227CC299A1A76BD6AC256144FB8657B9D1DEF61A0BB1C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\attack-left-option.json",
+        "Hash":  "1CD54F8E0A76ACBD39F869B4C01CB5A8A0AC03BA2934603BE3B18C2A0ABF0D73"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\attack-multiple-players-option.json",
+        "Hash":  "02D5E198440743688B0510C655A8D0BBFC72E92B73C94CF87B563CAE5D0FB9A3"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\attack-right-option.json",
+        "Hash":  "BC5FD140DEF217B703A21A8A8879B84FDFA3E8E117F3DFED86860F59167ECB63"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\attacks-and-isn-t-blocked.json",
+        "Hash":  "27005AC189AAE2922606484C681448598A3E9AE9B54DF386EC70218459B4DA61"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\attraction.json",
+        "Hash":  "476D58DBE4CA19472FB02F01D9D6E487BF3B3C98B0797B3D29C433CFD7FB64C1"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\attraction-deck.json",
+        "Hash":  "4B410686BA2752C72215B17BE4E3F4B73464531E3042C2884DDCAD05EEA897BD"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\aura.json",
+        "Hash":  "308DD9F152465763579322793D20B3A00322493CD2C203FE32283B86E3A27D4D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\aura-swap.json",
+        "Hash":  "A48186BEEEA5DFE531BF132F620C659B800FDB3097CE43085315A9D486AC36CA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\a\\awaken.json",
+        "Hash":  "A7F341F5BAA5C1B50CA271E5E839676335E11F93F4F09631F4E2DAE4051D3FE5"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\background.json",
+        "Hash":  "110A38CFDFD42959B06E58AB5A5F4A2AE5F64AC7806533F1FD4A5894B013EC73"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\backup.json",
+        "Hash":  "CF111E8C9552F26EF9D51FE07FAA29146B93FF2DDFFD9608D503525C1E421D26"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\banding-bands-with-other.json",
+        "Hash":  "B410A4E1019FD764E505B626351F4C797F4A498CBDB26443D20C0D5049741F84"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\bargain.json",
+        "Hash":  "D7223F7E37B871E6B5994522608A3FAD446855ADEE77CEF8F3D6F95C9FFE2FFE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\base-power-base-toughness.json",
+        "Hash":  "AF3B3EE639ACA05430840FF08192C95C4FD7A1875EE1C1D3BE48D283903C1B15"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\basic.json",
+        "Hash":  "59E6FC5166DE91D9171BD588EAE3F3E903FE0598F211E48F396465FBBACCDD28"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\basic-landcycling.json",
+        "Hash":  "56AFB7D19DF67F90F98F987B6046AD6EFAF67E768A0E7531426DD1A4A448CD0A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\basic-land-type.json",
+        "Hash":  "6138F93387B1EE0B974F4CBD27B8EFBB4540BB622F43CD5A5103CC64F2844EB9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\battle.json",
+        "Hash":  "398E2B6741244E9CA4FE830C96EE9DC574333D2EC57B84AEFA335463CDBD80C7"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\battle-cry.json",
+        "Hash":  "1B2CCFF153C1D639C2AE4AF4B117FB288555584C67837A59A0595A6C4C053F31"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\battlefield.json",
+        "Hash":  "6EF07E8105C55052E96F1E2FDA99C6F7C81F9FD9C23FE10558714D6A96B1F0FC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\becomes.json",
+        "Hash":  "7FB8039BFD787500B825D4071164B949B23A963E88110EFBC6B10F680E2FB4D0"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\beginning-of-combat-step.json",
+        "Hash":  "9D87D24793248FCDEA8F6B3A6CEA6A39934773D2E605826FEF17616B404A4888"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\beginning-phase.json",
+        "Hash":  "A98E6035C8B36985B7EB02445D5477616DF0957DFC6710B7384879163D59C92E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\behold.json",
+        "Hash":  "B5613AF04738F0F66DCD195D841938131EEBB678C182DE428380532B667E2B16"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\bestow.json",
+        "Hash":  "51D701EF6926B775F362743115E9B57D515F4F9F64EF004D5E9EA32267DD170D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\blight.json",
+        "Hash":  "D2ED689CFAC4FA93CEB5C31AD9EB9178AC42FF82CB34CB8A5180C2EA3890CAE9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\blitz.json",
+        "Hash":  "1D8C86FE16C90B606DA5E3E6F34A0E5186B325AB689F266245949786959A4F61"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\block.json",
+        "Hash":  "0A960474C3BD4EB8DE1F4236013460EA70E7197414236153270A30B35F0DF85C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\block-alone.json",
+        "Hash":  "F3C3E4CBE7143B588DD96557B79C472A3D5BD6DDBFE2E2AE70CB4219FDE13D05"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\blocked-creature.json",
+        "Hash":  "15AE126D6BB8C9EF11EB4A24B0B4DD3C0A98A983CE6E0C9269344C2745691537"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\blocking-creature.json",
+        "Hash":  "71C393F8C93B2CD8DF0DE9292667FE5CF858F2D65ED17EB5094FCA02FA9E32AF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\bloodthirst.json",
+        "Hash":  "A67C722545F1CC1B12F540E258D32D0F1D0E9AED6CCCCA6E57EEB0531947D8B0"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\blood-token.json",
+        "Hash":  "79CEF92A4083088EA2039BE1A6E37389235E424D71C01F759D75E733A9D6D738"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\boast.json",
+        "Hash":  "1452F41B6BF6330ED9BF1399103ACAF6BDD14B52C25E3DEAAD54575AD27CA1A6"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\bolster.json",
+        "Hash":  "FA2A1B3681A5F32E15D21967B514325DA0E53A7596133F9F4FB6CF45E2A3083B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\booster-pack.json",
+        "Hash":  "C2C718A3ABED7CD574BACA5F46AEFBBC5AE888746247501ADADA3DEFC733DE5B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\brawl.json",
+        "Hash":  "A7AB59AD96A27C3F9D83675D458948D1B6B4E9E9AB70710C566AB508DD741B13"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\bury-obsolete.json",
+        "Hash":  "B521A225EE4E487783F933599C0C9F2673A4F2EF11E13C35841CA6BA38E179CB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\bushido.json",
+        "Hash":  "B88AE1EF20DC1D92F1BE0154081F76B0E4E7892699427B5FC8DBACEF5417A079"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\b\\buyback.json",
+        "Hash":  "DB2D9A9716BCB4C315B21DFF1B3ADC7DD67F0845FD054E074E0C261D94CBF66B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\card.json",
+        "Hash":  "651219A9706DBE0560BF8B4F28203F3DDD87C42F90B69F6809382D1043DEA2C4"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\card-pool.json",
+        "Hash":  "3BA18C95385B26F8ADB499DF466EFAE77DB5F7E51A80D43FAE10212F38DB0445"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\card-type.json",
+        "Hash":  "1C155557BDAF9A9D46B8770D8D2AA9353045D499462AFA7DC349CB203C2AD8FB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\cascade.json",
+        "Hash":  "A564CEEB4D59FFA3BD2691C442CD708D4D19B2A0FA5CA96CB2EAC3F7E3B5ED0D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\case.json",
+        "Hash":  "33F848ABC5093BEBBAAB7FB8FA71A6BACCE2FFC24888DADFF4EF730034445BCF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\cast.json",
+        "Hash":  "6B36EB4FE3F135C9208ED089389A384DAFC0A6AEBA88A3CCD407F3DA58F19B4F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\caster-obsolete.json",
+        "Hash":  "5A9530D51BD1D606D677933F43E2F384996624B0F1C142D4FE86CD7E4CC8E7AE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\casting-cost-obsolete.json",
+        "Hash":  "C107177FD123F3B3F7FA12D87B697600DB2694D06D9F615CD61158DEA589AC16"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\casualty.json",
+        "Hash":  "56D1640510A836B94E65E141E79992A6F947FB4493652E34FB52FB3A2E8CADE7"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\champion-championed.json",
+        "Hash":  "493B04116870F38BF568449BE98E003590E6DF0C88B021792BCFA505C90535FD"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\change-a-target.json",
+        "Hash":  "045D4C5DCF40190AD80A7F96E2284B2A4F97C4A48277FC4E62B7F3A227C191E6"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\changeling.json",
+        "Hash":  "186FDB20FF7400E9EBF5F660B1379D02CC9BAE010D8298851DE324A504980CAA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\chaos-ability.json",
+        "Hash":  "136601943BDD9CDC3AD3B3557B9F42C3E1BB4B61027769E2AE82D3989327AA67"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\chaos-symbol.json",
+        "Hash":  "4FCD26BAD3D9C88887C657184CB111A25B4D3D37A3C7ABC7F4A97B6E4C9221E3"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\characteristic-defining-ability.json",
+        "Hash":  "F1505F4F63D7D722FB811769C39853A3F8884C930913763DB40D111688D9CE05"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\characteristics.json",
+        "Hash":  "887FBFD63621AC8834CB4C7E9C513DA81E55BB9FBED2EA34CC82FD3BBBD81B24"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\choose-a-background.json",
+        "Hash":  "FDA81965142F4345285D0F31A522AF347C2133DB7BA7622F2F5B35BF15052A9F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\cipher.json",
+        "Hash":  "44F7AF0FFD6C8AE542E27FB38CCE9C2346D180F174F1AB7B0353643A621EC0CA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\city-s-blessing.json",
+        "Hash":  "57DF75E18A7E7396027F4B7B11FF289C76E717C55EEF4711DF67CF251EF8838C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\clash.json",
+        "Hash":  "6FABCD92491A7202AC40EAD0B8201F9B7D9BE75F513C86053626E212D79D4761"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\class.json",
+        "Hash":  "BF2FB16C4DBAE70D59B9EB0A1F2BF160EDBC5379D5EFEC1B72CDF34023F62BDF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\cleanup-step.json",
+        "Hash":  "4F3219879B14C5CB4BD4A2C172EC8105E262272380774E7F400C114D359B4C5B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\cleave.json",
+        "Hash":  "C30A2AF7BEF25F81E29DFCEEA3D0B1CFE5111A4612B8EF14DAC26E43CBF15324"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\cloak.json",
+        "Hash":  "D49CA3F50009B0A749635F99F86A0F3DA148C7AE41071E72E1F25F9167D80381"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\clue-token.json",
+        "Hash":  "9009E54301CF3815FB63A325AF3158E4A9E00CCE9936C573BFD258515D8FFF2E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\collect-evidence.json",
+        "Hash":  "42526B7B6057D7B3F0927A3E18D21F4FD8EE3D23270AA41C4D2084B2D767FD51"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\collector-number.json",
+        "Hash":  "58C69FED1DBE8CF07B05F488688A49925C18C48AC8B788BDE5DD755F0D3928C6"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\color.json",
+        "Hash":  "30D729D2D246D18FFD643506C3CC7A08A17AE925DA65ED09B6230832711AA81F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\color-identity.json",
+        "Hash":  "2A5C177E16B414757E2539794C6148EEFA61644A91CE2A8339DB24489F57A1BE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\color-indicator.json",
+        "Hash":  "C55A2B0E7BC3D01049A982E5FC5C42940C23A9706B7F84DD6719CF4E2DE373E2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\colorless.json",
+        "Hash":  "9A71D78B0DD7333C71A2A69266DACB1477946B31E98AB25F7F140108F75D0911"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\combat-damage.json",
+        "Hash":  "EB87391E5B524C95883FE86AFAEF6946E19F60F9E1633E4D3D4CF33AB82A68E5"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\combat-damage-step.json",
+        "Hash":  "60411ACC2AE51971AC2745196D050E6765DDE258044E253FD487E7377525DDEC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\combat-phase.json",
+        "Hash":  "08133DA57EE4A76F52C0A616C85ECF974872F22557EA2320AC994B59F35A1638"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\command.json",
+        "Hash":  "23096E0A791E0115546917AC79B24B391DFCFDDE56D0E48E4AEA130145152E74"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\commander.json",
+        "Hash":  "C93EB166250080CAE5524782F2EF660CC7DCC56174516EA8A0FBA447EC8FE904"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\commander-draft.json",
+        "Hash":  "66D231DA45E8AC7F99B1508C7C7086C12C15269CB06C38FD6D8F5EC0FE8612CA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\commander-ninjutsu.json",
+        "Hash":  "70C986B2B29A7E9C8F3335AB3D7E87AF800B92DAB9F2BADF3952997FA8DD470E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\commander-tax.json",
+        "Hash":  "0D3D61F74550B46231E4E3567E7B96C87A265DE502C8988E4E51184B323A045F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\companion.json",
+        "Hash":  "5985F2A49AF5CC4369ED3046AC1589607A9309C92F8B7E79778112E033E7030C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\compleated.json",
+        "Hash":  "F03AF02884676C7CE58E3CDFC53E6C45435B0B59636C3D9CEE0DB3505A9DA50E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\complete-a-dungeon.json",
+        "Hash":  "EDE72B2062767ACD1DFCE7C2943B63DB172F45A8B3E5944FC7C1193502ACDA7D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\concede.json",
+        "Hash":  "C354B4605DB01476E597CD960AFF1F2ED7BDE3B79147A46699208271B2E1EBA3"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\connive.json",
+        "Hash":  "D97F894D850DC4C4D8081CF5CB9BCC1E2158F0579518EA7E4D9F621B0FE32BB3"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\conspiracy.json",
+        "Hash":  "5E51780C5E36C51C5AA3B83C0FEA05950AA72D8013D78928FC3F6FE43020C151"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\conspiracy-draft.json",
+        "Hash":  "F4123B09E0BE1D8FCCE07574F5281E29EA5E4BDAD1BD5324E259EA1DDC4182FF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\conspire.json",
+        "Hash":  "FFA7CA848F60BC48DD83E4CE8B836FE26A8CCF00E19C4CB1A3A9FA430C780284"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\constructed.json",
+        "Hash":  "703D01B8427E6866B29224B094F804C833AA793F74A306371E5A3F93E5885F4D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\continuous-artifact-obsolete.json",
+        "Hash":  "29B836F7A0E13D10FD4EE4C04648EBB44332E1862E85D50E806285B37246E168"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\continuous-effect.json",
+        "Hash":  "0119B9AD5AABEDDEEB766FE113FBB45AFDB739FE43884A85A57D4F561DDD89EA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\control-another-player.json",
+        "Hash":  "8329E85DA6A44814F9DBDC1617D56E7490192BF5671775030264723641199247"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\control-controller.json",
+        "Hash":  "CEFF6A85E8AFF0B4D6ABE769EC5A2B2592818C7DCA81675D4C18260D5E9826E9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\convert.json",
+        "Hash":  "E15C7131B3BAC9AC0A680250F9E73999AF25208FFD4D97D0027DFFE8114E1D3E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\converted-mana-cost-obsolete.json",
+        "Hash":  "D6A363130243705BFE072B9F635CB947BEDC4480E4EC6A12B86B1861F6FB43CC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\convoke.json",
+        "Hash":  "1DB520B635923145303717626E7211A8CA5183BBFED133AD40EBCA688A2A34A7"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\copiable-values.json",
+        "Hash":  "09203839D642F2156EA72ECC80CAEAE1A4AAD502E61C95E8F6B9FFDDB0394199"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\copy.json",
+        "Hash":  "1086B2BDC710B5F3A5D49E431E3D9C0BA7DE24A78148FE1B50A1D838D8EDE28A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\cost.json",
+        "Hash":  "7BB495C3911F6CA88030468B1BF09FD5B8E97E44DDC352DC5D332B828F0D87E3"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\counter.json",
+        "Hash":  "09FFDDFB7DF6BCF9B62C5F36DBA3ADD3B0E031721C4CDEC737732360253F2AE8"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\counts-as-obsolete.json",
+        "Hash":  "CC2483C76D9831ED0DAD7B4CB42AE9D39217BCA2851E9A16AC15DE1C2EEF2F6F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\craft.json",
+        "Hash":  "1F3D354AECB664C123BA09BA9EBBE6981C158F994576121EE103FBDE2D882E98"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\create.json",
+        "Hash":  "307FF711BFF63F0B7ADCF84FD09332FCBADB896CC5A9BB4D5291FCCB797DD84E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\creature.json",
+        "Hash":  "D129CB2B415055FFA4CAA63F50DA07344C06157C2351BCB1A1045F816915382E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\creature-type.json",
+        "Hash":  "BC7E548C953E78252AC914773567F8C809D7025AEE90BE79E293A1D04CD5EBA5"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\crew.json",
+        "Hash":  "7E98D0671599A07FDF025018B81E7373CC31D32D8B647BE2A4CB74A0EB12CE8F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\crime.json",
+        "Hash":  "B7AEFDD56DB4C95CEC2808A8ED7D9D2262A7E24F6F8B51F64943C8D2FA6FE41D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\cumulative-upkeep.json",
+        "Hash":  "9E94CD97B09E2F36BEC9DE3902EECED9E27BDECB1D27A1B8927CE1C696DA07CF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\c\\cycling.json",
+        "Hash":  "B6327EE5FFA38AB3F8004D4AFB5B09DC35773494E64EBAF88CD2B8A950303F56"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\damage.json",
+        "Hash":  "E011FA329EC5A87CB243335A8DC66E7B26743A6389743A117422323C884F6D94"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\damage-assignment-order-obsolete.json",
+        "Hash":  "872D26696D00673E3E078E1CFC4BCC7E19A32C848CA74A8D300369D2749BE19C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\dash.json",
+        "Hash":  "050051977AEC74853622057C2849D8A7C9969C512CD51F1BBF1E6E18FB00D35C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\day.json",
+        "Hash":  "4735348BEADC8F1EFD526E7CE7EA13D6468C19EAF7DD59AEA14608097EE40588"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\daybound.json",
+        "Hash":  "4641AA5BB5D1AE8385855259017224E18386D4FF9F1E99B847559E4EBD224520"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\deal.json",
+        "Hash":  "DA933808995DC53E51A6C94E963409A28F811AEB1A61BDD950D30D881A68E1A9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\deathtouch.json",
+        "Hash":  "63B54689E59F68A0EEFDEECE59D5F27A0357CC7D92643B8C84789EF71AFA07E0"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\decayed.json",
+        "Hash":  "983E5317D6082AF71B43239F221F8E4570128B0F680F6367DDE015ABD918C121"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\deck.json",
+        "Hash":  "F3AB43473AC8F50F7F4D9CE61C0220E5B913B96E4A54651653894BF3E7C6F63B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\declare-attackers.json",
+        "Hash":  "C25004657B198EB42EF7CE3F9AC7B7B45D3AD42818AB1B2D1FFF55EB3D848D0C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\declare-attackers-step.json",
+        "Hash":  "37CCCBC966EDCCD4B6FA6ADA1DE58DE1ACC9E8668CDD29EAEE959FB9FEF71BF0"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\declare-blockers.json",
+        "Hash":  "E0596AF1C8CCB0B93609D913DDF8E42D439A27961780179403D981A3BCA82811"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\declare-blockers-step.json",
+        "Hash":  "0EAF99CF6D1D3C513F3230B4076FC8A497681233FA6B8AF53D577A8AD76455B6"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\defender.json",
+        "Hash":  "A0F851B47E94F493EB26FC2EE465B0C75035B99551397D63AFD9FF83AE01FADC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\defending-player.json",
+        "Hash":  "2CF58C1899297F86969ADC660D2613D699A1F551E47C332607BF1479ECC992E9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\defending-team.json",
+        "Hash":  "EE52C1F68C4B767630A67EE7311D6E6B34FC6557D23158FBE80271192D01BB8F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\defense.json",
+        "Hash":  "BD3751E445072510AB72CECEE42FDC6B48644048C0ACA093F13C2961DDF8F96B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\delayed-triggered-ability.json",
+        "Hash":  "5819234E520BFA9F933E4B9C7F1CA728AA9982E23DD07C0D88DF3A7D37B3C1AB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\delve.json",
+        "Hash":  "7D8EF1FB2BFEF0D8F9979E6452F963F4ED52584A666BB4DC89624E70F43CBA49"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\demonstrate.json",
+        "Hash":  "E23349917DD872942BDD029F8F3DA31AAA7F47B1C9EB722EDE6CC12D9653547A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\dependency.json",
+        "Hash":  "C301C0861A97A94D5E8E7B99C75D47A988E838F6192AEA3997616BCEED592C35"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\deploy-creatures-option.json",
+        "Hash":  "FAF95F775189087CB2B1996A2456669CD0A686D5D740C2D24127E9B9FE824C9E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\destroy.json",
+        "Hash":  "21CD719A32A71ABF6F0ABA3A6B4CF697F2EC4CCCF4D3E599B4E185E796A0A045"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\detain.json",
+        "Hash":  "EED466EA6612BB11F73316A075C613018AA2C6AB5715C6486FD1B12EFE86DF1A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\dethrone.json",
+        "Hash":  "F5614A44B332D7769A73F1365838EB1757C62A403F1F49999D08EE6EEC6B44F4"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\devoid.json",
+        "Hash":  "8D2AA7FE86F974D0DEECDB9056F6136012C6F1D54DDF3F86334482DC7719D776"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\devotion.json",
+        "Hash":  "F98D0916F1CBBFA4E0874FA214C64A6314953B76849EA7945421B5CAD07558A3"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\devour.json",
+        "Hash":  "24983669E16BCFE8DEF0426D86D4E89029D1B9825AF5D7CCC12796293F5E0F39"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\dies.json",
+        "Hash":  "6883BDE978E69D766540978E146D5EC02F9E2273A44A8813BDC8A3560031D739"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\discard.json",
+        "Hash":  "D3A2A3051AC65EA311FB08301C7425A7FFDCE462491FAF292E5B958AD4353E49"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\discover.json",
+        "Hash":  "7CE95F38F3B5D73582785DC5EA4C8D380EBA308CD289AF158AAE307775C90BA2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\disguise.json",
+        "Hash":  "E59C45F53C72B1D3673014C3C1DA9CB6B1EF07060106B8375FBA305D9465ED25"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\disturb.json",
+        "Hash":  "A570F0BAAB3AF6FF4E235000AA4F1AC51AE7243A9EAED72B664499EEA3775BBD"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\doctor-s-companion.json",
+        "Hash":  "5FB55F099DF4CF80A71C83ECFCBAB419A6302633190AA867EE6B1856EE1C9347"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\door.json",
+        "Hash":  "BA14FD44320477C03E8078BCAAB494D891DD78DFCDEED7CB6A0C1CA0187E1C7E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\double.json",
+        "Hash":  "25B1961042001641B7CF7841A9C33FCEF58D4E50C78ED76808362633212000A1"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\double-agenda.json",
+        "Hash":  "F294D533C97A2FA2717876CF132BBB818CEA55B945CBD3B11D5FEBC5D716C2EB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\double-faced-cards.json",
+        "Hash":  "EDF0826AC17912BDB4C108CBB75B57D3685EED35F45B5393BD46316539D70EBC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\double-strike.json",
+        "Hash":  "F88155D2F5A5988434280FDEA5795C0C3F48822D9A3F85379C4BAD2EBA43B92E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\draft.json",
+        "Hash":  "E4AD50530227FBF2B33D7F1139393ED4FFA1BD59940044EF44567087799867EB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\draft-round.json",
+        "Hash":  "59D0DB379EB2CE81DCD735395CD011207AB1499C047DECE5BA13F7929ACB8BC6"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\draw.json",
+        "Hash":  "4A086B47AB44234DC63AAC8B634B1AA17F0CA5DDC9CB228AB10B1ABBD9D10FED"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\draw-step.json",
+        "Hash":  "48AE20F2E077A72D04015847962EC09F3C09A6C50C4B95E1E77F27AF7EF4A500"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\dredge.json",
+        "Hash":  "1E695ECA32D53314932DFC7A713E4C020C78C8540D28F9FC7DC2F2B68086CEBB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\dungeon.json",
+        "Hash":  "D004C5A4B384DEC36898A4220C662D58D7A729C19B5AD64D5DCD97760522C5A2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\d\\during-obsolete.json",
+        "Hash":  "DAE5C86169496F0F6EDA3CDA676ED91CF5AA2FB8C14ED7C0DEA9817279AA129F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\earthbend.json",
+        "Hash":  "D8F1B708FB17861B3B4E2A4D640E43A231FD14480B694EFFBC951A3F783111F6"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\echo.json",
+        "Hash":  "702752BC4CAA449EAA79B293315E2BC4DEC4A6466D0A9D6A7B431B19F2A0D4B2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\edh-obsolete.json",
+        "Hash":  "DD317AF6A2000D460AC3C10E0AECD0EA6AB16EF5542CCB2CFB840F0429BF61C3"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\effect.json",
+        "Hash":  "00A65C76D6F973AC60976EE366762D2B9619D61A1AACCFA72A08E59B0A424651"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\embalm.json",
+        "Hash":  "6A0FCBBFF0F1D3B9233A4EBDA6598D138F6B16AD7D34D0D26B9EC6AFD0190CC1"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\emblem.json",
+        "Hash":  "1EA11C07F6AB273CC4FF359DD501CCA65531F3FA428865093A95480799A3493D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\emerge.json",
+        "Hash":  "76F38DF612E20B26FE53C6DD4FCB19C1523C7A8CBE9C3F4003B39A7E9A358290"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\emperor.json",
+        "Hash":  "832F29142D47695B5BC57444B69E1C18089AAF186AB1CD9BB1505B1FFD40A7FF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\emperor-variant.json",
+        "Hash":  "C1D228D5C360E1B5449DAA1D7BE19C87DFA6B9462BDB7A3105FE8CF5921BEE1E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\enchant.json",
+        "Hash":  "C3AB17DD2643B399CA311428152C4571F1DDE55803D471356AF00B6E694ED1D0"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\enchantment.json",
+        "Hash":  "06E35D0E0EFD3341FB1D71871B3AD399819EE62074D90642F157B1317B7E90CE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\enchantment-type.json",
+        "Hash":  "1F4BD887A1FF0C54FD039B6ADD0E8F95BBB604259420DF537C81C5959CB1819A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\encoded.json",
+        "Hash":  "1F0E6BBD2AE3AF8445012D96856647CBDE344B62CF67A990CF56E9C3B0D7A4A5"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\encore.json",
+        "Hash":  "E629BA556FC3C4F878D68AEE2A85E136FA4EEE130890628105907AC6374CD22D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\encounter.json",
+        "Hash":  "7EEE2FC10135C86DA7CF789A22884E0A73D7DFCE7DFD801A1AB7C56C5437FDA0"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\ending-phase.json",
+        "Hash":  "CFE8484EF01364ADB4F8FAC0B3B49E91DC165ED7345B27D726B9DC44B6834CC0"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\end-of-combat-step.json",
+        "Hash":  "46F95E0FB8D407416FC9B487FC391EC301D425FFA170D46CF3C77ED5EE62D848"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\end-step.json",
+        "Hash":  "71A7D90EC96F4180723E918A54F4EB77D5AF0F7EDC64751A2828DAABB752AF48"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\end-the-combat-phase.json",
+        "Hash":  "30C84F09167A0A8DFA045B4FC33D48E3CC0F0E54B8DD92A6ED1423244C0C9F8F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\end-the-turn.json",
+        "Hash":  "037DDBEF5E3CB813B750DF94ACE9C6D59E145CE3AAF8B7099EE91199390AE205"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\endure.json",
+        "Hash":  "EDCFDBA35C64DC74FB8F7E9765AB6123D48197D8CCF228FBE6236907EBF20C3C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\energy-symbol.json",
+        "Hash":  "08AD715D76B3BACE765652DB1BEF3DDE807866E713F045D4421642D2E0ACD92C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\enlist.json",
+        "Hash":  "42EBE4FB96751CF6A29CECABF4487089EDBC2C6B4990EF456192380CB9F88042"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\enter.json",
+        "Hash":  "9E4960CAAE56041B084A496403E5AD3AAB677678F76348FB53E43442797AACA8"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\enters-the-battlefield.json",
+        "Hash":  "D25F057134BAA99D51858654DD9C92776085CD3B5F396027F40A89BE334D06E1"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\entwine.json",
+        "Hash":  "98D7EB9F19084B1F606017422A6F730EF9AE549FDC224AA9919AF06159DD7756"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\epic.json",
+        "Hash":  "30570A92A263D62A1E6171C511A373DB411AAFD18761F623E26C5035D4222894"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\equip.json",
+        "Hash":  "60FF5E9ADD7F073A7B73E599597D1BA8D2BCC294DF9DE9F94A2BC0BBD3133722"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\equipment.json",
+        "Hash":  "745DF03DBA7A17E2DD6CF155D0B77D64D6F5E066F9842CD3963B14204DD220CE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\escalate.json",
+        "Hash":  "6845C2B57E735B507D85FC776CB081CD904FD66F439E19A868DF078E97586531"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\escape.json",
+        "Hash":  "185DC63C232974E8CF54DAC4579A77CA1C82092FC754426DCCD24EECC437049D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\eternalize.json",
+        "Hash":  "A4A6618771B862DA7015AEE59C120EC9D9C98AFEA713BE1364C191015C18E0ED"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\evasion-ability.json",
+        "Hash":  "435F8BC8269CBB4466940EB71E83BE619F3BC684AF9BCE669E480A96648B84D3"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\event.json",
+        "Hash":  "54E0D9DF776B71E5D79BCBD90BA082AAE39BCE0C32CB13962BEA0C6B825F3B44"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\evoke.json",
+        "Hash":  "388B3C2F3FA03A2AFB741EED83C712DBFABDF0F46370588ED294D02573B4B2F9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\evolve.json",
+        "Hash":  "A8A3BDCF72BAF98B734EA6B36681BD51C23710FCA1FAD35CA2738A9E709F68D9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\exalted.json",
+        "Hash":  "3373E2298C3652C895310312AFAF49C16138E8D13C86E483D74E1BD0070DA465"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\excess-damage.json",
+        "Hash":  "37233AF435E468C4954847D81A2E81B6ECC18F541E174C74DEE364AB870EF60D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\exchange.json",
+        "Hash":  "1BF70444527117FB509200C0CE4F81D871508D762509A91B0F8CD3CB1E33361E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\exert.json",
+        "Hash":  "A62A3D0E6DB5BB4F15983D53F2720EB15D05F0185B25D6B0B3F6498A9935DA73"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\exhaust.json",
+        "Hash":  "50BD4992D60F291E6D1925FF7197715003D2ACC861B56AAD3CBADF0B0A1EF8FA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\exile.json",
+        "Hash":  "E16C94FFE985EA2F61CFBD5180739DF64956E210B586E59E343F2BA3D6ABAEEC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\expansion-symbol.json",
+        "Hash":  "0348152B86E57B21DE678CF51C86C0C70E9931FB14888EA74A89B4F854395C7A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\expend.json",
+        "Hash":  "D50BB1FE483AC94147C3613782D1D9E0AE820CE93D2AB7995352D996CEA84D04"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\exploit.json",
+        "Hash":  "133436FB10CD38A8959842C8AA272B70517427F44D7AA21F1B3654F85E7BABF9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\explore.json",
+        "Hash":  "30E308B8A31FF47509E6E18585CB5C900DD30DF83032C6982AE27F72D018C2FA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\extort.json",
+        "Hash":  "4CE41AB5DA8FC4C06F37DD87CF9C258244BEB891EA7696913F6F968F37EFA622"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\e\\extra-turn.json",
+        "Hash":  "973DEB83F741AE7C05884574E0EC705FD4D5588EA6EE37FD475DA771F9E83F89"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\fabricate.json",
+        "Hash":  "DFA1A53532EB1F5B37C37CFDB65AC7810CC3B5E9855D2DAAD0F3F05CFDEDE8D7"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\face-a-villainous-choice.json",
+        "Hash":  "7F723C1397CFC9C3B1FE0C0915D070A50C3862B62DCF7FFEBB1D62969F21DAA2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\face-down.json",
+        "Hash":  "7E1B5725825C71F4573D0C8D4FA8DEAA5A4E6F8E1F12980A2A6B1F9E02683483"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\face-up.json",
+        "Hash":  "06153C66B970BDF7A1E0FBCC21571D1A2593F8D74DD55712E35B9059A48535E8"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\fading.json",
+        "Hash":  "F834CB63280980DB07E732AB5BED9F289B1C92F20936BF90019713B266DAE4C9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\fateseal.json",
+        "Hash":  "53D8B9AC97ECEA8427B8AE3CDF3953B06A050FC98A2DE542AA554CB7E0E8D0FF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\fear.json",
+        "Hash":  "6C7E29683F109255B1BE01037A92D797CE5662A6FA2CADA989F77AD722198BAA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\fight.json",
+        "Hash":  "3D46D63DF419BA8B9078C4300542D22205770549D33C06CE919B8426F7B6B938"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\finality-counter.json",
+        "Hash":  "2C764D492C872E7F73665BA39BB826927945281F88A95E84B0E09453BC4EBD55"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\firebending.json",
+        "Hash":  "0FAA1278E33A08F7072B6E6A6ECBF54F2DC5050AC6C6BA7D2FA856F701E97D38"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\first-strike.json",
+        "Hash":  "1CCC75F72D36CC61BD1DC5267507952CE79443C8076F3B0E7A954A677644B517"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\flanking.json",
+        "Hash":  "73F0C7C39316B33E00894A24CD9EB322F87D5594C351841DEBCB10056CD37F5A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\flash.json",
+        "Hash":  "568700B0854D3F5B8BF9236BBB08B92B9520C5AA03AEAA39DE2337ACB4B8D65E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\flashback.json",
+        "Hash":  "B02B872FFFDD82DE6D6D1B501C288D2B353603F365755149038079C0C5A01694"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\flavor-text.json",
+        "Hash":  "6F3BF423297E318BBDAC8ABF1488C1D0FD3D1D9B0DEE72E75FBBE06309759636"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\flavor-word.json",
+        "Hash":  "4B6CB4C77001835D99C774429856F926EF108450F0E2AEC0FC207B6FDE2478D1"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\flip-cards.json",
+        "Hash":  "C5674DF038756D189199828B6D25839987B050D73BCF635463676F3F92268E58"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\flipped.json",
+        "Hash":  "1E1412374E6416350B78891CFF015C1732AF93068EE74EE384ABC5E96A1EDEF9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\flipping-a-coin.json",
+        "Hash":  "4D42460644C16F53E4A18851D3A2B0111A57E27B6848174EF59CAAA93F0D1B73"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\flying.json",
+        "Hash":  "DF52FA76372736CFEEA8D8DCE61C0C11E22DD27D251EAB29A7709EFC989A067F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\food-token.json",
+        "Hash":  "24733B14FB567EEB9EC8E213BCAC03DB9E858F12563BCF8E07FCF4BE120084B2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\forage.json",
+        "Hash":  "10763B91B872561CEE3E9128DD95CFC99D4453BCA1672102E96B04D753E15E04"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\forecast.json",
+        "Hash":  "671728B6CFB7A05B7AF6960CD95DE841BFD9FD16F4A1016E8443998153804261"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\forest.json",
+        "Hash":  "1C8BF564ECD40497BBDB62B40C62694038408FDC6594707AF03D77963A34F6DC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\forestcycling.json",
+        "Hash":  "98DBFA1A5F230B727842DE4A5490D8B81B9A89AC6D26A4473C42C2FA82841A1E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\forestwalk.json",
+        "Hash":  "5CEB2AFCAD468E531A983F6671FBB9986AF8D72F4A76FEF3E2EF49CF5BB62233"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\foretell.json",
+        "Hash":  "F82DF6E901AEF8351D39237206E020570C3AC727DE9FAEADE351BEFEC569B7BD"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\foretold.json",
+        "Hash":  "3A4426A7C19ED1B65580D8B6E4461DC78524852A48F0CA46D18C9109EF6D2F4F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\for-mirrodin.json",
+        "Hash":  "625B0CCC5CAC560A7B809478F31362FC7A3407546EF65613CF70F4B30F1BF989"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\fortification.json",
+        "Hash":  "3F1C32219093B667DF0096EE9A6E763CBEE1B2AF2738CD2B949CC1B9FCEEDC35"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\fortify.json",
+        "Hash":  "0CBDA32424C4F527BD3038740188FFFC9ABF52A01178E6621D89B95F3F03710A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\free-for-all.json",
+        "Hash":  "2DDB67C17929E610B007F87CAA628B983B2738D3C954A76F2D1DBA0196BFF76B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\freerunning.json",
+        "Hash":  "5628D56E62F54A27FF2E84EF5DAFF91577F6FD5F0018FBED9FE5BDBE0D05F57C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\frenzy.json",
+        "Hash":  "61BF2EB2B853BCFE43816085A7C1F372426BA9AC0B45675FB01DCC141571B1E5"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\full-party.json",
+        "Hash":  "AE0D71D0AFC3B10650F74B2945263BCEBF2A06E4256C0E64C5C9BC1B7FFAEFAD"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\fuse.json",
+        "Hash":  "0653B6B8A7A01B0E20549BF4AA0A100BD9F692A50E61163460D8AFC92A0985E2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\f\\fused-split-spell.json",
+        "Hash":  "52774117FD3959114D6A680A16859F6A51507918FB05B80253119443389896E2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\g\\general.json",
+        "Hash":  "7AA3A7881E55736A34FBF3CAACDA4006CB12B0AE56913E713316A2AC1ADB9E19"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\g\\generic-mana.json",
+        "Hash":  "45F2B38964C41F98470B35C8DDC7DB045055C82F789913B370DFD7E63EEE642A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\g\\gift.json",
+        "Hash":  "A18F6398AC85F3C5399F37EDF215AC714EAE4A407880206516CC882577861553"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\g\\global-enchantment-obsolete.json",
+        "Hash":  "9AC73B7D19218F1A8D2DA0D76423607CA19824B6AACA5FFC6065B3F560540ECF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\g\\goad.json",
+        "Hash":  "4E09D6A327F2EEF2749A698BB33C5E04724C50DC77F93C95E6EEE6D5EFE55F24"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\g\\goaded.json",
+        "Hash":  "C1344D3CA56375CFE6632827D188596F53AC363E123EFF115CCA8832FA38E3F8"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\g\\gold-token.json",
+        "Hash":  "4FB2F0538E1F4A5036EB3D43AFBDBB3FCD5A01AE272890F701E1861888009183"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\g\\graft.json",
+        "Hash":  "2875A1E19088E91DC8D9C057A09D930827F17EE3CA49C2CB27285F8B4CD3E05A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\g\\grand-melee.json",
+        "Hash":  "B8A9600958BFE783B5CA5DC7293E7E9FBDB4C734640E7871B941613833C1AAD4"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\g\\gravestorm.json",
+        "Hash":  "1A7A5D131F3B3FBC05A16A9BE10C0E0E1AE64351FD18D23281C50921321941AE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\g\\graveyard.json",
+        "Hash":  "1FCEB0F8515DD02ACDB8EC233FD1E779E452253B860A83942F26B22F5E1C5F83"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\h\\hand.json",
+        "Hash":  "0EC905755085CF7B183BF141DCA7466B8F825682F01941316095B5132074EBE3"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\h\\hand-modifier.json",
+        "Hash":  "9E4537425DC9F64876BC60582C48BF885F3756EAC07CFBADE9CFADE90EC2F743"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\h\\harmonize.json",
+        "Hash":  "F2CAEEE80D0E0E7D35FA59DE724F4E88FB020E09C745F5E10588AAB04ACB8588"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\h\\harness.json",
+        "Hash":  "FACC9D05F656D507E6E4871A000559B1FF59EDFED50FE31989A1EF3ADF3DF6A8"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\h\\harnessed.json",
+        "Hash":  "30454DA9B3BD2028E7E035E15A287CB93668A040316DF9363458C640ED6A1487"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\h\\haste.json",
+        "Hash":  "ABC9F6DF71C28D810C11CE91713E9681585C12AD032C8E94BAF379AEF681FCAB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\h\\haunt.json",
+        "Hash":  "0C5AC80B5572404819772A046797A574A13A21BC700ED007DE050AA739263B11"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\h\\heal.json",
+        "Hash":  "2FCF6BB561D5CC50C951A542406DEE8D729E31B194CAF3F9470745766B53D0A8"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\h\\hexproof.json",
+        "Hash":  "53B40A98B875F1A3A8A300430245BFA448F658B4ADB143B8475F465836A44EDE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\h\\hidden-agenda.json",
+        "Hash":  "93DF362CFB6D19483D3E524A7E5220C76C66A9F88024552E26C43CAE5B240A6D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\h\\hidden-zone.json",
+        "Hash":  "6ED8F4DA289AB3B16F18397A61FCEFBD3EE007E15030BE065595D8D006D1F1D7"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\h\\hideaway.json",
+        "Hash":  "2DE0E8F76BCA6773D8A2F29D499AA98B7DF43396B72AE03E4C15A44699C2C9C2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\h\\historic.json",
+        "Hash":  "1319A0575F48A73D058D5B3FE1CE050922E9F039A3841E900C22E9821CCD3DC4"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\h\\horsemanship.json",
+        "Hash":  "B3C2B7EC8D444489C975CA5DB81B47D21C78C836AE3049E675A59C0706F9F210"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\h\\hybrid-card.json",
+        "Hash":  "9461696F5187A2FAC61F9F5EFF7C1C9A6EDCC1B209E5DF0C54E2EE1AF51B3EEE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\h\\hybrid-mana-symbols.json",
+        "Hash":  "28FFA9294F90368FF59E038BDECEC49AD771D655344E60E7EC51DB420FE97C7B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\h\\hybrid-phyrexian-mana-symbols.json",
+        "Hash":  "5E83142B4C0954760422E133EFA2707FED3F5BFF8B29C3019D34C1BAB36EF890"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\if.json",
+        "Hash":  "532A444433A10F9C75DA6799989FC98D9567AD7173D714DC71C1F31E6C4DBFFF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\illegal-action.json",
+        "Hash":  "BDE03B863987A5B358DCA7EC02FD42BC6A58C9E6336E42A35F0DF99A93BAA16C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\illegal-target.json",
+        "Hash":  "6E329A546A10E27290857BFB737D171C1BF550D166522055179746E1F7A7D88C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\illustration.json",
+        "Hash":  "F67768EB974510824ACD7388702EF1895FB10ED72FE773E35794602FF47CFA85"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\illustration-credit.json",
+        "Hash":  "867E86BB33561DB9C43B53259CF68DC196AD520A44947714F491E00B186C64B0"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\impending.json",
+        "Hash":  "DC44D212C0C95A876F496F252AE2036755EB7F26AA42AD34DD48412D25D32B0A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\imprint.json",
+        "Hash":  "8830B00F08C603D65A213EA6D19781343514658FD33793FD7D082DC44D79F666"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\improvise.json",
+        "Hash":  "1F7ABC0207834CDC1702AF5B39D4A30E795212402D89B6703EAF3596FEA029D8"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\increment.json",
+        "Hash":  "C7CD7BB7ABE26B8B9885C696926BECFD9DA72E9626F8D2B3CD51E5984B3E2D09"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\incubate.json",
+        "Hash":  "D0181D720CC7F32BCEB327840F77E32BB37378A2C2469DC2329ACCAEA2F68754"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\incubator-token.json",
+        "Hash":  "2DCADF9DD6EE3E83E1A0DA40C27CD63AA2EE26DE19FFBB2BCDD4430C23DF888A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\independent.json",
+        "Hash":  "42AFC165AC3766B937AF2E7387EBA7742480B7DED3526EA6A096014B22C51405"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\indestructible.json",
+        "Hash":  "46345C70210648B71FB43334C21460886F767E2636B2C539512651A542DA0273"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\infect.json",
+        "Hash":  "381E0D4E2C83AE6A75DB876C15EBC5EE3DA1175D4961100CAF6F34B69A72992A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\infinity.json",
+        "Hash":  "8CFFED88F8C28906D17553CBB968264B8E5A8FE91E98BE9ACC20EDAEDE748FDB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\ingest.json",
+        "Hash":  "CFF571D245F3CB9920F141FD70D8C33B0DFA4BFA55CEF2BAEA49E82D4C2C3636"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\initiative.json",
+        "Hash":  "09CAED011E90B159BF352ED996947FF3E21956FE416B2411A28D187B4FCCEF52"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\in-play-obsolete.json",
+        "Hash":  "3FD7E9A6F18CB55255CF9344A8625841A5C25AB42754C6538ABFC3CA8574293C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\in-response-to.json",
+        "Hash":  "EFBD819C4D04721EB5248D190AE2976ED401D682151F1F1318C217BD93516D20"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\instant.json",
+        "Hash":  "8A7822891AFECF4DA558EA15D6AF30C1A0D0CB1B0952C57B872112DA726DE638"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\instead.json",
+        "Hash":  "8A19B10E2EA109ACDE6FC06B87EE7B7F0A9DA10C1A7159ABD9921126A6545B2F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\interrupt-obsolete.json",
+        "Hash":  "83D3FDA00D293BC38E2D0BC64B196D1840A061FF3D885B743115FE058CBA7B1A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\intervening-if-clause.json",
+        "Hash":  "24C417CAC05541DB3D7583997B22D929663CCBC0EC1FF39C5627E04DE66B1493"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\intimidate.json",
+        "Hash":  "4679EE003677FED7216893707772623DA9C898481C8E5B0CC7A3216266701DFF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\investigate.json",
+        "Hash":  "009DFB2ADF15ACEA4381A646C0BF0E76170938F55C7DD2B4D207F7C1DAEB06A3"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\island.json",
+        "Hash":  "D9F3831FA797ACF3AA31274552430D7C70E0DABC42E555CAFF83D76925E77AA4"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\islandcycling.json",
+        "Hash":  "C22B7E949BF4F1924DA73E93ED20BC13FC2884270843667EDC4E719FD5164985"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\islandhome-obsolete.json",
+        "Hash":  "9757369D64C31627C7C96AC676C2B2C04BBB85DF877F5B051DA2300BE134AF73"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\i\\islandwalk.json",
+        "Hash":  "3673788B33EFF77F20E2A62066FBEFBA1515EEBF9123CF78E7D85066659DB47C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\j\\job-select.json",
+        "Hash":  "05110A22D324A4BCE9F5E5B6C0D4A3EB68FD081D77C09D1F4D4F1251AC35DB76"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\j\\jump-start.json",
+        "Hash":  "B36A8B7F0BC8F3E050F38786543C6F1AC0C05EDF8EABA94DCDB89CC67DFA39BC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\j\\junk-token.json",
+        "Hash":  "15064BB3624460373B250F18C181DEFD1FF1A21E6EC089AD749B625DB7FC68D8"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\k\\keyword-ability.json",
+        "Hash":  "75BAB037FC26AFD9982E180F87312EB679C2B48ECDA0FDF32C8D4C0270767ABC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\k\\keyword-action.json",
+        "Hash":  "429F97908A8C65291C50DD96249554EDD1F4D8CF1A52AA8A876F280636A168E8"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\k\\keyword-counter.json",
+        "Hash":  "0C5FCF5F3836F4F8315148CD5924EC5BF601AA66B7EBF4D0792004F017DE209B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\k\\kicker-kicked.json",
+        "Hash":  "F84DA0224EFB40AB2A5F34C9046D88C616811E62E6E19FA3CE8550E5E734D70E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\k\\kindred.json",
+        "Hash":  "B991734C2A0CC256A5C5B36688809A666C3184310F385B1BD11388D9FDBC5421"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\land.json",
+        "Hash":  "56C51B5BD6E5F74E4216C6B0CCD21B44001014092D445056AC7BC2E4A7AD1588"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\lander-token.json",
+        "Hash":  "BBEA95073FCB343AAE3D2ED1059834719C0A0F369E273BFA4F48FA84CB29ED60"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\land-type.json",
+        "Hash":  "4ACC50CD8E2B5A5C838358847101AA0687A2D8959A5A3CC20C5516B9988FA0FC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\landwalk.json",
+        "Hash":  "6AB9146EF93575D0D6150DEBCCABD1F10289420B6EB2EB3F65D9442ED82FF6DE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\last-known-information.json",
+        "Hash":  "61895A3900CD5D29DC85E93D216553099C5115F1D16E2867F5A853321CBF0A05"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\layer.json",
+        "Hash":  "7E85B8E7DA9FC8D3D9783EB91DC230DEB56422EC2B701FF52724CB981E1AE7C2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\learn.json",
+        "Hash":  "23FB9BEB7B2BC6A6D7E9F2056D471E630758626E9518BC32C5B7B49A41C09A22"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\leaves-the-battlefield.json",
+        "Hash":  "64AEBDFBA5E354580AAC5B9155C8ABA286A7CABEF0E15637A069D9F96501F70C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\legal-text.json",
+        "Hash":  "6F73FBBCD946FBB4EB1A6D68C2AA4FB8FC60330977DFCAF6A14D5245C863C3BB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\legendary.json",
+        "Hash":  "7455EDF34252715B34CD15753F596B685F6A0887A4ED3A2F753406287A40FA8B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\legend-obsolete.json",
+        "Hash":  "C693EC7C8873B74035A2E5063476DD81B037EC8226C72F24744F09FC3E5660AC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\legend-rule.json",
+        "Hash":  "2839AA84626542D6AAAB5809F8C56DA9BC237A9D13E23770A4581E40AF3577E6"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\lethal-damage.json",
+        "Hash":  "4BF21AA1BB3907B829623E99C19542F5B2BFC95F75B4A6D54B068D46262554B2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\level.json",
+        "Hash":  "74EA98F05713357F0B92B8DA8E6B3F4783A39927ECBB5E1594E3D7555C0A2CAB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\leveler-cards.json",
+        "Hash":  "ABA5B98E647D5FA4AEF0580B99DCE566DD04F556A606F1CF6BABA4D5058102E2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\level-symbol.json",
+        "Hash":  "8D9920A952632AA29FC72DF9CE09A0B4C1DEA289DBAAEEB91057605324E86623"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\level-up.json",
+        "Hash":  "636D60C2F5106353353C532550057B4D2B3E526BBCFF46D665E4A45F1AA540CE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\library.json",
+        "Hash":  "DA98BC49715153BDA04BEAAACB14D985E2AEB24ABB81D2BEA787721AC377AA82"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\life-life-total.json",
+        "Hash":  "570F028A4D8D2E5A9AF86985662D3AD27D4B122BBC7A4C9DB5029F42C98E77FA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\lifelink.json",
+        "Hash":  "0211BA57C26A2C1B5DCFA6F8EE3DF214566F7AEFC323D0FBA33896B338880F10"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\life-modifier.json",
+        "Hash":  "83E770891BACECEA82B9B4CB2970E4460D8F3DE3EAD7BD8311212E9986B86E90"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\limited.json",
+        "Hash":  "4939184F14958047080BA5FCFD8859A7C3D029B0A40B21305DF22A16CB42301A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\limited-range-of-influence.json",
+        "Hash":  "216FA8CCDBF91B6C2A31251FAB649A2DE8A74EB893C9AD7930D3776EB965D364"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\linked-abilities.json",
+        "Hash":  "850A3DF27A3B0C22EB35133A2721271DB622F1A17741C308787A8E17090AC8E7"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\living-metal.json",
+        "Hash":  "F6B3946BEEFD81CDA0580A6628129202B139363E1571B47097BFC8D4A3D61AA0"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\living-weapon.json",
+        "Hash":  "A825E381ABC2EA2EEB03B2E46F6E9CB675CD49C355D2EADDD1678F627496DE36"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\local-enchantment-obsolete.json",
+        "Hash":  "868FF44B5A50E8430C087CB7B90107334D0D15136724C62C54C21FB58450A064"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\lock.json",
+        "Hash":  "FBAADB6BAD9C4212D17BCF9839AC03CDA4FDB77F2016145101A15DB297B18C92"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\locked.json",
+        "Hash":  "F0E1437DC558FBB2828A9888B5C746CA0C0C2C9FBB32DD25C4BD6DC99650AF03"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\london-mulligan.json",
+        "Hash":  "7C2C98205E5B48015E397C6473F1FE48AE50E25464FC635664E1C9BD3C103622"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\loop.json",
+        "Hash":  "45A89F9BFBB12E20D95968D6C0B0034DFD62792B1932D4662F1CB74E0E80C9B6"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\lose-the-game.json",
+        "Hash":  "557CFF06783C4CD2F11F90457845682EE1A085030C967607EA259C20E5F24C9A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\loyalty.json",
+        "Hash":  "8CB9F028818FF51DCEF17DDEDABF6D917E9A8895C20E5D4D296CD305AE9CB86F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\l\\loyalty-ability.json",
+        "Hash":  "C733080DC03FFB4977DA9029AB5B0079E7C69EEE4E30BB8F249B62AE07DCFA02"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\madness.json",
+        "Hash":  "693E9EAC669AE6927372D12F7C756D991492BF565891955A939C3584500D0C2F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\magic-the-gathering-original-game-design-richard-garfield.json",
+        "Hash":  "9EB9882F81FEC368D9E156080E13CB5AB33F7E64621790C8FDDD4E3B27F1215B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\main-game.json",
+        "Hash":  "8A59A96DD8C86DA8A6E773E8E864542741C5E17E4129EDCD978EC888645297B8"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\main-phase.json",
+        "Hash":  "C6FBFBC5506C16CF6ED986E70B43250D85B80158E4EF89EC28DAAE98AF3FCD6F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\mana.json",
+        "Hash":  "0855878C47BEC362CBE364835765BB2F07AA408F04B245EEAE2677CF55B6EF2D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\mana-ability.json",
+        "Hash":  "0523179307692EC3287A8E7003880ABB84ED64FC7A4238F71DDBFE399E89639D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\mana-burn-obsolete.json",
+        "Hash":  "BC0DE5BC9E79790BED8BFD65DAB620C0E2A69FF1FCC53FC724FA47F3ABB69E9F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\mana-cost.json",
+        "Hash":  "93F815EE9BED325D0FA7913EFA98EC2E45E1CCEC892D59790D13087D3341200E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\mana-pool.json",
+        "Hash":  "83B784D4890BBBDCB710B9E82F7239690F2DA3872ADF7F2BB1C61FAAA72354A9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\mana-source-obsolete.json",
+        "Hash":  "0285AA901C4D3AE03C8B49087180260C2F31650E369911E862199975107FA2F5"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\mana-symbol.json",
+        "Hash":  "3A3EE8D66836C3EA5F994F7F2B8EF35A88CCD5B5146A0EDFF528867B858FA6C9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\mana-value.json",
+        "Hash":  "0D8135D889E6FE40AC1E2445A4CBEFE14799741A0F392D9336C10335872A09E1"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\manifest.json",
+        "Hash":  "2EE49AC380C981B2552724E0006617F30F59F36E639718122478BBA96B70A6B4"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\manifest-dread.json",
+        "Hash":  "94F9C3C18C075408C7F89C891216CA2A6D3A1D82C0D4F191C5F0164080D7759D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\map.json",
+        "Hash":  "1E7000692A2176A0D41B00D57DE0961D1582680E4477569384A9ACAFB8923097"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\match.json",
+        "Hash":  "29A239C1C7FB39637CDD44CE78050A1A49CC5B4F1ACAE922958331C5906837FC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\maximum-hand-size.json",
+        "Hash":  "C46184C6AD0139031C76CA5DB69349955C82980D94A8068740C1347F28ADE420"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\max-speed.json",
+        "Hash":  "D0D2345481F82ABA25AEF17964C0F5ADBB3DF7D07024DA71EBB34CEB940CD6AD"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\mayhem.json",
+        "Hash":  "046FD790DA65AED2AC774C49EE51884AB1DF97C447429CAA07AA1277E460CEFF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\megamorph.json",
+        "Hash":  "F962B72BAEA72410B5627598A3CD2303839D4855726DE6CB13588E352E324928"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\meld.json",
+        "Hash":  "81C5AA5C6623B3B10FD1316D13A3A14549FD23EFCD10685D46F590FFE5D49116"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\meld-cards.json",
+        "Hash":  "77644330724AF2DF686FBA2882AE9ACE845F2135EB33F222ACD19B2658C676F4"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\melee.json",
+        "Hash":  "0F967F2154DE99177EEAA0EC641F7ABC867BB7A1D879B8CA47B4C9CAB4359D92"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\menace.json",
+        "Hash":  "E321CF22CC8EAD7AEDA2B00E9A0696A33D5187720DDCD0E6BAA21900ECD5382F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\mentor.json",
+        "Hash":  "D3C08C94965E51DADD60606454D7BDEFE2DD5760C0EDCA5AACA541A0F974FAD4"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\merged-permanent.json",
+        "Hash":  "865208E1CDE008D3F6D0EC8255168C4C160CD1F8B650835F82E6CC635ABD4E6F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\mill.json",
+        "Hash":  "1C60DF20B02F709FD9054345F4A07FDE2F7322C169AEA26925BBFF838D5A77D8"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\minimum-deck-size.json",
+        "Hash":  "5B99F190E62794FCFD77BAB23212B1FB0D05B8F13BFD922BEF313BC21520A433"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\miracle.json",
+        "Hash":  "C1CC9CA1F3982CBDE70E4F1676E6482E54FB9CA18CE0605DCC55CFAB19B26F59"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\mobilize.json",
+        "Hash":  "E0173EA63ABCEDF7892F9938238C8FEFD2A99E1BE019D967E33BBB01C7996EBD"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\modal-double-faced-cards.json",
+        "Hash":  "E1A1244ED942186DFB2A98C807708653B623E24B76D7F7F8237BE5D6BA990ED4"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\modal-mode.json",
+        "Hash":  "FBB2AAFD3FE7AA63519F2ACDB050FA2E559C28902367213D03DEB30C1BACEE45"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\modified.json",
+        "Hash":  "78BD782EEF22AD85F7329A7D4BF7C54C7A8B0FDBF1E9797D27C683F84DC1EB19"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\modular.json",
+        "Hash":  "2C04FE819D3E1B318BC938610241E6A30DE523E0291820472A5922C553268790"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\monarch.json",
+        "Hash":  "B560F34B087E4E619BF2381EB4FC18A3F10FCFDA569C26A81F6FE7DEE0696BF3"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\mono-artifact-obsolete.json",
+        "Hash":  "D6CD1991FC556D69653C6030320C75CFF44F483C6AE83A17699B1D2BD44FB1FC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\monocolored.json",
+        "Hash":  "774A8A81E85E430C24A4347A181C40C870884B61DB945EDAA74510487F052C44"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\monocolored-hybrid-mana-symbols.json",
+        "Hash":  "D1A20E9F9FB349042165E82361AF5FED928C18E80532BA0F1F5CAFFFF13F6B5C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\monstrosity.json",
+        "Hash":  "474147BCC00DD21EC09B904D61C4F231D17C57B25E26AE99D54FF9D92820ADFE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\monstrous.json",
+        "Hash":  "0713B71B8238D8AB7DE90860086F072180747BF0F0D433D65F4E59B0631F17A5"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\more-than-meets-the-eye.json",
+        "Hash":  "CA598C3E6B5D9AA3927AA57312E48CD31FCFB222A4F4E877A0B11DFC0CD4EDBC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\morph.json",
+        "Hash":  "787A0697BA2111C64B7873E773B4CF65CB4B6CEB89F75EF2259CF8BAA79B7771"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\mountain.json",
+        "Hash":  "2410C7AFA0825C6DA502C1344D29A54A55A958F70DD89F5F1AD31BDAFE2AC74B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\mountaincycling.json",
+        "Hash":  "B17A2F71CDD9EFF224CEC3CAED92183E67C3B97EF52746C7554B276BD411774E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\mountainwalk.json",
+        "Hash":  "70ADA39962B132998AB60DF9CDABCDE7C0E1182EB197BCE07B486118624A7827"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\move.json",
+        "Hash":  "A8D82FB49726291CA9CA4C7A43AD05F58F358DA33D6E26369B39CFA15662FA91"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\mulligan.json",
+        "Hash":  "C8B5100C1E1F4AF54A65B538D3C90C1AC82AFC2998D4646BE67111D087B82787"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\multicolored.json",
+        "Hash":  "916810B06E7A4523F965F9E77D5B46373F7B3B9E4DB0A8699BDCB49334BE2B65"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\multikicker.json",
+        "Hash":  "ED5AA1DF8BA8289AFCAED2A9B083AAFA74EB0F6968463A090CC00D104FC33380"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\multiplayer-game.json",
+        "Hash":  "4D213D83B8034BADCEA58D157DC6097867066F7EC76B11C6077AA45B7F420D24"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\mutate.json",
+        "Hash":  "1DEFA060819393CF1CC12718682B5CD3266C20D91AAD14B78A229689DA33C4D9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\mutating-creature-spell.json",
+        "Hash":  "805B4E61996B02574FA5A11C03171BFCCDFB0CFDD34A3A834CC69C3FA413CF1A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\m\\myriad.json",
+        "Hash":  "5BCB938018A4865E92E6D9506F6997EC8BEE7DD4207D5AF9A85F36F4A2F35966"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\n\\name.json",
+        "Hash":  "0C3241064E4F965181C033E292BD3E06F5DE93FD8161CB17E4AAA232A935C9CE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\n\\night.json",
+        "Hash":  "C3590BD0D76C2B85BAE0C240D29711C695177E88A07D3AF36A47BB7A44398D32"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\n\\nightbound.json",
+        "Hash":  "6A89B5D20049EADC97CCF64F8CBD7EA8340244B090D6B8CBE4AFC1BECF1693AF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\n\\ninjutsu.json",
+        "Hash":  "C8B626BF8534AE185EC0CD571638EF8FFF40AFF4ADA35B288EE908D072BCA03B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\n\\nonbasic-land.json",
+        "Hash":  "D04BAF3A9B3EBE21BEA97CE5D8C4E46F006193D8C2B439108BD17D1364563857"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\n\\nonmodal-double-faced-card.json",
+        "Hash":  "5A89C931716BEECFAAD48CDCB60F697F83A621BD1275B587D0AAC219A14E678A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\n\\nontraditional-magic-card.json",
+        "Hash":  "1F9FB2A73E379E34FA532C4870A6E4BF6A359EDC4C55C96CF7BEF154396F2F64"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\o\\object.json",
+        "Hash":  "09ABBD37BF7B3B2FD751625B907F9EC7D81164CDAD8E0E598D12C03183840156"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\o\\offering.json",
+        "Hash":  "61F3524FA99D5457124952AD3443E25C943347181FA3AE47908AAAFADF95A608"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\o\\offspring.json",
+        "Hash":  "9EED978886E6E169D7393248A7F541410A8C1BE2423D2B2CA552C8E7EE19F034"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\o\\omen-card.json",
+        "Hash":  "7B707F63B228615E83BAFE241263AAC20D7F816546378D57A546A163A6D147E1"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\o\\one-shot-effect.json",
+        "Hash":  "D4545B3391A86412F9F8ACD8D9BBEEBCAA0E66AE3E346606434EE5A4589C417A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\o\\ongoing.json",
+        "Hash":  "098C4566E1B2473F6459E0C0DA476FF98C544A47741A6AD6588638A4DBAE4C78"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\o\\opening-hand.json",
+        "Hash":  "2264E6D55CF56327C06CDAF03980ADAE4841933320DDEC18A37B47AC3143EBE0"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\o\\opponent.json",
+        "Hash":  "60E17F6A132F58B99FD4D0641FE5561B7209F9A234BC6EE0CCED046C0B616BEC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\o\\option.json",
+        "Hash":  "E6D4BC1CD3909AFA53BF93CADC9133678BBFF1757B1A7D92AD8E6728EF3C9594"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\o\\oracle.json",
+        "Hash":  "937D17BF2AF150B53F726E3A786E6D82C2F3FFD0086FF006071EC083DE9D989C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\o\\outlast.json",
+        "Hash":  "DC039DAEFD2986BCA37A19EE49397BD6FD1A849139919033EE38F60F6D47294F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\o\\outside-the-game.json",
+        "Hash":  "69F4C6F4DD8AF86212436766F19E297E9E8AE98082883F1B641A663DF425EE5A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\o\\overload.json",
+        "Hash":  "D2BD39F11B688E598DE52FD2725580CBA528763F08D8CD8DA5EAE804BC7C5F2D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\o\\owner.json",
+        "Hash":  "266E9AD99B7B0D5E9BD19612163A7F96B27DE17C0F7E9629C8B2E225FD8B96E1"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\paired.json",
+        "Hash":  "C02FEB5D8B9BF6CEBDEAE6C602B62EFE954B9F0ACCBAFA9C2ECADC7D9FD00923"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\paradigm.json",
+        "Hash":  "D530294D5F37F36BA33CA019B75483C8F9076E34CCAEE004F2B8D970A5FB4A64"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\partner-partner-text-partner-with-name.json",
+        "Hash":  "D52D67ACA5F4219135482564AB3497F963C4E9B6268ED824A45DC7F636921AAC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\party.json",
+        "Hash":  "B732B603DBA04C2111D14F78E9D57119B575E3B7EE35FB42E40E1CD0A6EDE848"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\pass.json",
+        "Hash":  "B5E7EB899C8A73D8A62AC1E51C43EFEF8D18B041F7A3E2478F5476DC025508F4"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\pass-in-succession.json",
+        "Hash":  "229D49DC2054B16AE02668A09E28C80F7B20FB378FA5D6B2187655516CC999CF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\pawprint-symbol.json",
+        "Hash":  "20749B76D46A10D7585B197D1C836C142A980CD66F6577C94794F3B867495484"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\pay.json",
+        "Hash":  "82B64EC5E7FAE751D9D6D34D0E0B4E7EFF8D31F4B77BA9614F827293EB4F4928"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\permanent.json",
+        "Hash":  "A6F559CA1B8120A844FFFAC1EB71C2086EDEE28397F3CF4C6079D051570DFA0A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\permanent-card.json",
+        "Hash":  "E25C24634C5E443CA026DE87FE8CCA9ADA3C989943A142C19CCE305022FEBAFC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\permanently-obsolete.json",
+        "Hash":  "AC64A492FBB8DEA377588C7F4323F76BDC3F2BC2C463924991EDCD778D305E8D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\permanent-spell.json",
+        "Hash":  "6D61555833F7B70C9B896922E65AEC732320B14D98BFEBE3F7AE67DD71C7CB22"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\persist.json",
+        "Hash":  "53AA5F79B522E2A93BB9313960A78456A862AB4958BDAA333CD17775A9FECEFC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\phase.json",
+        "Hash":  "93AD06D918A3BD24DC8B3724CFD5DC831AC77131A44D943BB40F0764C6A0B069"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\phased-in-phased-out.json",
+        "Hash":  "AD43DE3FA97E6A0042C0DB9503E7BE0967ED71182FCD846FCBD7CB1758B4334C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\phasing.json",
+        "Hash":  "784D3D84128B0CC3283D9547C15C1284B49522F180205B550ABCAF70B7A6B990"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\phenomenon.json",
+        "Hash":  "E6152B8E2825FE5EAE696D07DB52063DB0273FADC9761D01D12EC63DE2702DBA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\phyrexian-mana-symbol.json",
+        "Hash":  "07FD766198BD355753F6E95E9C4499162154DA4062A266429D30BA7828D591BD"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\phyrexian-symbol.json",
+        "Hash":  "62D32D0546103F3F0F11DD074081A0CF7F67ED91DDC3E03D2D40E3148F1720AC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\pile.json",
+        "Hash":  "2C22E131F1305A4830578AADD1C11030B3F9B088E8DE2AADD149B82EDA0A0C0E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\placed.json",
+        "Hash":  "5D3B038AD60D27E45330C347FDAFEDE5E0F0240CD6F164EB89C1EBDE6DCA3B57"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\plains.json",
+        "Hash":  "624C8730E61B5D94C61BD6DA10F2CC09FEAEEAA87076A5C04011DCE1E94FBE4C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\plainscycling.json",
+        "Hash":  "E967079240D99FF913E846C86F2B61C4080D80F28DF5E6AD9B9368ECD6A82A55"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\plainswalk.json",
+        "Hash":  "5BCF3261BEB9AB5A50CAF58868A9F02E177E94FFB4CD7138B54775A367CF16E5"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\planar-deck.json",
+        "Hash":  "E1F6B2308ED52B9E29F1B6AAB650C5B315EA88B36B6787C265F04D5EBE0F9B98"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\planar-die.json",
+        "Hash":  "EE87FC8932187B2B60DE8E32F2698A83C8C838A3A06056A8EEB7C9B976148841"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\plane.json",
+        "Hash":  "BAE007E9A6EE4DCD2F4F142AEAB2C8FD1449C6841E26CCBC7AB19BCD52453EE9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\planechase.json",
+        "Hash":  "862D8A381A3D818F34A532D49DC5586145D3CEFC668805B8701602215CBE069B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\planeswalk.json",
+        "Hash":  "399DDB7A964A2E940C7BFD435DD1A16BA4434C3F66ADF312D0BB64E5947CE55F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\planeswalker.json",
+        "Hash":  "C6B167DE64CF85C25657EBB2688D3CC1586506D48BAE758CB2D488AFF0E87C18"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\planeswalker-symbol.json",
+        "Hash":  "EBF79B07E674E57A45144285E96EE09B322C5EE02F7E8F055A1AA5996E51AAF8"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\planeswalker-type.json",
+        "Hash":  "718048727C4F85CD38C955CABB395DFDB5CE5C5D73D17613CB3199E8C5E057FB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\planeswalker-uniqueness-rule-obsolete.json",
+        "Hash":  "9BF095F9A6395A284D39448E6C9A49D97A4DE35E201DAA76F663F50742479E0D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\play.json",
+        "Hash":  "7D11F447E67080DDB799B67F9B88ACB8AB224374CE858C80B033529B3EC43301"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\player.json",
+        "Hash":  "EF10D176A1A6EBDEE8F87DC9613233D1E9A05A4A22D7CB31AA2D954AE5597621"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\plot.json",
+        "Hash":  "5EBD855863FDDBDAD1F4BCE545FBD96AAD380FD846D28C276F3CACC0F1A2B1B5"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\plotted.json",
+        "Hash":  "40CF39755315F7B230BA7BF5A9D1065B8AF6E0F48D53C916C8CFD2DE141ED35D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\poison-counter.json",
+        "Hash":  "5A89D0114D5DD41A59AF32954427C6729DD42A215F4FDC464182657340FFF008"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\poisoned.json",
+        "Hash":  "71FE05E8BA5F469F12700E1DE158812A5356D29CBECE77D67B5E77D84715A907"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\poisonous.json",
+        "Hash":  "71D095838BCF348D8C3B988493683CC039DE481B36E4F307CF9CA6015F12255D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\poly-artifact-obsolete.json",
+        "Hash":  "BCC27D2B2037549F128ACD0CE69809A22F94B38B8F26DD1A4AF6A84E817AE9A0"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\populate.json",
+        "Hash":  "07ACC88DCF153EB404AFA00BACD2A7A5C44EE56A07A3B8AA968ED3BB28181CCC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\postcombat-main-phase.json",
+        "Hash":  "FE6093CEFE184CB3702D6434C85D2F7EBB5566C5857173FE03675ABE1CD07C69"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\power.json",
+        "Hash":  "3D94086EC95381A1906EBC0A9F4EFD3E665653853A13B2C90BAD8DD40CEC387C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\powerstone-token.json",
+        "Hash":  "A012737C22870C82A66240A48A546242D27F39D9E3B683121546E179E0B16769"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\power-up.json",
+        "Hash":  "7E909E26AEFC4F669F2AA3D111D299C92B453592EA4B7B9872FC1E3976AFC468"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\precombat-main-phase.json",
+        "Hash":  "5E81049A3EEBECEB8BC4716C33FC9F3D16A3AD5C2501410F441678B5AE2EF084"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\preparation-card.json",
+        "Hash":  "09F34B213FBEAE8800FC21C0BC9B819FCBAB9B7D1616FC84A21478A98A8AE19E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\prepared.json",
+        "Hash":  "16D16A5D59FDA4D9424665F9CC7E1C8914B76840A0177967C5A74119BAD591D1"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\prepare-spell.json",
+        "Hash":  "8DCB5EB13C2274801F8E03777A3241698D2435AF8D315C3B0F9738B30592DC6D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\prevent.json",
+        "Hash":  "ACBDF1770A8B341ACE1DD206AF45D349DA73368CDDC4576E61403F45B48F0C57"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\prevention-effect.json",
+        "Hash":  "022276AD30D66F68E61FF118BDEBCF5AC42B9207E995024421BBEE871F5D3C4A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\priority.json",
+        "Hash":  "A0E14A41982795676B767EF0C43467E5C1BE9A49932BF3E5DE18238F049C0293"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\prize.json",
+        "Hash":  "8A821EE8EF075F38D8695C07B1A4E6DEF08D39DD27D13086C21A05FE21ED2613"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\proliferate.json",
+        "Hash":  "56A9D7D80CE2CCCADDD56F35443486784C62A2911179493E0313D7E1B2AE2FDA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\protection.json",
+        "Hash":  "FA66B41409147CD62A739ACB4B87B72C068A06367268D7785B650C297842BF4D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\protect-protector.json",
+        "Hash":  "4CE792CB732735DA0100B2021B2408ED87E5177781B719B5635941A2F6DBCE40"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\prototype.json",
+        "Hash":  "BF1914329AE78768135BFEEF1B72EC7A07237052AA37000DFEAD03C6BB8AFCCC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\prototype-card.json",
+        "Hash":  "4A3C35BC75351DE9B2E668519F13479C594690BE0D76ABD5F1F925A26653A404"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\provoke.json",
+        "Hash":  "65F217664AEF32858FB162FDB97B3C6A077C58507201AA5EAC235305C795E37A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\prowess.json",
+        "Hash":  "242B759AAAAA48EF0BAFD9F1411313051E5095C6E3A6C80E4E441BECFE0501F0"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\prowl.json",
+        "Hash":  "BB2A90B7848B9B6A4A4FEA25FC8081D4EA0B9953078747EBC4F0DD8062B3C4C0"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\p\\public-zone.json",
+        "Hash":  "6F14BD7F141C1D63544EE7228CB054D3D69A40D004242E797962F57DD664F740"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\rad-counter.json",
+        "Hash":  "412C1D823EA87230089277905A50C8BD944FB7AF505118E36A3D138DF7A28745"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\rampage.json",
+        "Hash":  "9C99D9B4818514D0200773959C7D197B6106A57F4E192AB396DBFDC1D88D84EE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\range-of-influence.json",
+        "Hash":  "31337072A35469B3F8BBD7F6FEE8F33BAC4D7F89AC72E52AD4888D0CE3187CB6"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\ravenous.json",
+        "Hash":  "990E29E0319B5787B8EC7FB6A86320EF2A4E38B0F3347611870A70DE3A865355"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\reach.json",
+        "Hash":  "90844F2B14C4B56ED5581A236241BD5AB91F6221A5511470F573AF7BFE0BB06B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\read-ahead.json",
+        "Hash":  "5554541EB43D629017568A956CC0C30322D4C62BDF16D915AF3FC37D3E710D81"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\rebound.json",
+        "Hash":  "DDE68000F1057DDAB8922B8F9D5CAE41F1F485164EE7C16739E90F775C6F0ADC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\reconfigure.json",
+        "Hash":  "B31A44F675B7A19D78377BFCD7E7801AF59311953AFF6CE781244D6AD63AC202"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\recover.json",
+        "Hash":  "D3903711280889D23A5DE324C7A278EDC3A34FFDCC06B7D2FBF378BC13400C5E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\redirection-effect.json",
+        "Hash":  "BADE72538E0CA92A58A9F8E88B35EE3E5C41810DECAB316D397A637EA3629C1A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\redirect-obsolete.json",
+        "Hash":  "6A76D3A28CFE2872EDEB37EE0CD4BCD9CF77A0389E9AA804EE1E983721C209F5"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\reflexive-triggered-ability.json",
+        "Hash":  "68FF5D6F459C22A2C04EEE466138DF8A41F1B6CCEB77DC1C5F72B0403FBCA8AB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\regenerate.json",
+        "Hash":  "A2B9CC945CB1A2E6CC4914C31608DA4FD0783D3EAE099D718851C21F56C9F908"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\reinforce.json",
+        "Hash":  "626B500439DB49E1829309EC424F856EC57683C37AA0225286E0367B2D432027"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\reminder-text.json",
+        "Hash":  "BD27765DCB746D81BF33451252125D53B19D62E5D0599AAD2FC96AA83075067D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\remove-from-combat.json",
+        "Hash":  "48EB0703B2D76934493324AF845B03C06134036FC3BE157E7E2B60EA158C4323"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\remove-from-the-game-removed-removed-from-the-game-zone-obsolete.json",
+        "Hash":  "7092F643A2A671870589AD8FB402DC0F8191FA2C2A79ACFD784B482EF95AFB4F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\renown.json",
+        "Hash":  "1A15C9089A6A888E65CF9FDBE43E671D0565FB907E6F758A6C958F1CF5B5092E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\renowned.json",
+        "Hash":  "488D48BC68CDB47AAFAAB596D3186163A278377EFCE3C001BDDF07DE4740137F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\replacement-effect.json",
+        "Hash":  "C8C1E5058358B60394875B703CAFDAE5D660B168B5AF81735DCAFB6D4185092E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\replicate.json",
+        "Hash":  "A4E9AC142795EB8D64F6AE05155CC6DD30C914E1637C8140F13CD4800C0AC73E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\requirement.json",
+        "Hash":  "6858149E3308A55FF58D4B5F903248FA08B619E290DF4B66602896E9E44B8C6C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\resolve.json",
+        "Hash":  "0FA4D1144F0DFA532993305C15010C2C752301DB836E02EFF078DA7FE48FC82F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\respond.json",
+        "Hash":  "AA2A10FF148FC2D047ED194CBB08803C90DE7BE012595FEFD2EFEAEC50F65CCC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\restart-the-game.json",
+        "Hash":  "0562647D0533CE42B58E911973E669D4268C0DAC76E93738A00D7D2B75C1B778"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\restriction.json",
+        "Hash":  "FA454DB5A8E14E2243D46420CE56D96822EBAB16E4541B3025352B65BFEE1F5A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\retrace.json",
+        "Hash":  "3667AA9126AD39948AB68C88D2F4DA750308ACD4BD9A533610351539E6286A69"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\reveal.json",
+        "Hash":  "77911818A2BCA9DFCFFB5363DFDB99F5E0340E2124CFB9D52446387457F76901"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\ring-bearer.json",
+        "Hash":  "29286907D8EBBECDDF633AC744FD697973A51E1994F0F9EABAC574987E67C058"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\riot.json",
+        "Hash":  "E460C1E334683FBD376B10E4AFA561B698A271F20C13FB37D86052460FAE2BA6"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\ripple.json",
+        "Hash":  "08212369D42EEA737A61941D7E69C158F4470804188E94FC226395C483A8A655"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\role.json",
+        "Hash":  "36945C1B3007EA6D148A29BB91E79ED88036835F133D7A888FB32D28063B18EE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\roll-a-d20.json",
+        "Hash":  "D67F17F1DE9C567C39EA1FB8D0DF34B7EA7D51860662365092AE203587CBAE4D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\room.json",
+        "Hash":  "58EFB085D256FB6D3985E0C150F88DB5EED95BB7D3517EB6A6A224380AE1D243"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\room-ability.json",
+        "Hash":  "A6266C16F4832F1AEF992E5C67AA029B6ABFAA32A1FC394708B2F2467CE8CCEE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\r\\rules-text.json",
+        "Hash":  "C05EA8E31905BFB01F61C15A3819A6293DC99256FCF1B81E73CE3FCC952D28ED"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\sacrifice.json",
+        "Hash":  "27393A585E744B3FB8C3017339E33586589EF3F6E5541B93703A02B6231A5DF7"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\saddle.json",
+        "Hash":  "0A2730D538D19D133E5DD3C0A332731F3D4E9631F846F2638A43920675F60531"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\saddled.json",
+        "Hash":  "2EA3FFBCFA467523B6B5D6E6FE47A45A151BFE3DE0D0A8A9EB2A585C3B48B9A5"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\saga.json",
+        "Hash":  "C10BAD87B4556367FEBF1F9F3B3FAD1B70ECE5A95892BEA57F90DEE49AC8FCFE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\scavenge.json",
+        "Hash":  "9F742ADB749CF842ABF6534700B30C6AEF5FA22CE71C3D66F90FE488644B681C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\scheme.json",
+        "Hash":  "69D4D9BE656D041187A24658FD99C0BA1D413F8CFFB6F354FBCB005B686BF8C6"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\scheme-deck.json",
+        "Hash":  "DC271751178E5C711C2640B17838E39627B122975D674C247B78CE7C537A3D69"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\scry.json",
+        "Hash":  "D5D3D7EF21EC0F017D4636AB33360D74BBA2277CEEE077CB85893F9F829FD14D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\search.json",
+        "Hash":  "44B61BCCB299F34366E47282AD8E7CA8DA0972F3B43FD248EA5B741827A7134B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\secondary-title-bar.json",
+        "Hash":  "3D1E87CA464D1788E969F8FD5941E210DB2A7B51308C9BB4CA61B88C6C43D6B8"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\set-aside-obsolete.json",
+        "Hash":  "016EAC29CD8245968AD579EFB995228C92C4FB28905936C343CF01714C135421"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\set-in-motion.json",
+        "Hash":  "4F66B687A7905300F104D7C2FC394F1D54498C1AB911E5D18DD03486E9DA0641"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\shadow.json",
+        "Hash":  "DD2A187EF9CCF8970B0BC090870FD83AA3ECFE5E25643207386AD379995F2965"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\shard-token.json",
+        "Hash":  "94670AD7BD891B3020064175445C6F74D445E04997392CA43772C0A7C1C8FC31"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\shared-life-total.json",
+        "Hash":  "62A6DE641F23C5862A9F9757567CC016CF260EF449E2427A39B3B13D748D6B23"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\shared-team-turns-option.json",
+        "Hash":  "FCE4D15963D038A6B5BCF146433A43DDA5C17681AE8A243762ADF7E89F2B5297"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\shield-counter.json",
+        "Hash":  "B62F460C425A6689D63A127FEB70987CB095E77742194D0C00CFECC224D6F743"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\shortcut.json",
+        "Hash":  "C460458C215CAD9DBED2BB501A4758858C1C2D838B67F2A7FBDE32CB3587278F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\shroud.json",
+        "Hash":  "E015821DBE6C334C55A6D5CA506287F5129006E51E9B8D0965FCB27C8C72B98F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\shuffle.json",
+        "Hash":  "6096E02E4C59BA3F0183B54CBE6E8AE46E4A23F787BF57D030458EABCF5B9213"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\sideboard.json",
+        "Hash":  "6C07D40D553DFAD0D0A5957BC2707E56CE8379A02FF8F37ACB5C4D7F8FF3C00F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\siege.json",
+        "Hash":  "CF1883959ADA2337D240821469DCDC0675A49196B0C89A95E346EA44A714A228"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\silver-bordered.json",
+        "Hash":  "7A89CE28D6A4A3D0C733B9FF8C084D9418C0BFC5C35310A85CFC504F9FED530E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\skip.json",
+        "Hash":  "9F7282217A3B93DDA0607F5E17C804E0E5F852BEA4DDC6D23A7F6F440A798387"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\skulk.json",
+        "Hash":  "593F0A5C2048BF916BED4A4CC141B9F00766A6CF5FA425AF749EAFE80D83CAB7"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\slivercycling.json",
+        "Hash":  "1B75A8CD5012A79AE972FCA646183554261680BA1B84B1C61F30468BB2085DEB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\sneak.json",
+        "Hash":  "0B8E735EC2EE3D684F10CA462D1B88BDB2A095DED97321A932B0C40E1C8183D7"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\snow.json",
+        "Hash":  "7F6F4C9D41A8A4C9D7B61BB8D0233273DFE7F5A8FB0D1C3F72AF2769E38C0E11"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\snow-covered-obsolete.json",
+        "Hash":  "7C62BF7EB1171ED87484973FCB6506035D49AF06B7A59166CB32DCE70B02BDCA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\snow-mana-symbol.json",
+        "Hash":  "4733016D3EFCE739AF916C3FF4AFB918D6BB07315DB808703A4FD86296FCE322"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\solved.json",
+        "Hash":  "BA669038F3E1E8ABBCD9D811BF78A81F9CC21BCE1284D46DAC42336EC23FC2CF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\sorcery.json",
+        "Hash":  "1003F669B45F1D3B6E91FE5981DB81191786E3D5B6679BEAEDF924B7D084B4C9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\soulbond.json",
+        "Hash":  "D4F8E14972A7E38B04006938AB45CB98AFA8BFB6826054779EA767D7756AC9C3"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\soulshift.json",
+        "Hash":  "2252EE6E2006D609316A8C560EC565DC7C4633DF0E7F31775FB46A0978BB5895"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\source-of-an-ability.json",
+        "Hash":  "E1D4120F72F13C7F837E76EA6910B18E928793AEEA0E993E4A2594ED2C613E22"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\source-of-damage.json",
+        "Hash":  "DF2D6EA80859E083F8142D2705EBDEAC5DE664463A1F7F790D2D1A32C72E0420"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\source-of-mana.json",
+        "Hash":  "67030D206A886E739A36D2B4E3F9573C1ED1CACE8A7E25CD2262741BAB1A0ABD"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\space-sculptor.json",
+        "Hash":  "701820DD44CC848DADA24F7AECCD84A36949EB6722A281417FED881044D36DC5"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\special-action.json",
+        "Hash":  "B4781FCC75D2AF362C3CE15E47A30B9BB62EDB924A5EA4540FB2CDB10D8E5E5B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\spectacle.json",
+        "Hash":  "D6582A1E4EF1485B892BF519066684215B6A31D0ADB3AB924ACB169F927B7AF4"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\speed.json",
+        "Hash":  "FCD3E95C194506902ED9BF98B6CDEDEAA3A8C43187C29BCD85154E08EB395F20"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\spell.json",
+        "Hash":  "37AB4E1EF60F6533187DD9F139E43839AE1B8C9F36EC7610E23B84BC7A660BC5"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\spell-ability.json",
+        "Hash":  "0349253150E8AACC7B382087BF36E31FB8543FF1ED5EFE62BF3A4453EB1F1EE8"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\spell-type.json",
+        "Hash":  "AD7691E5F39BBA4FDE8B555A605A97D4091C871B740E7FCEB9CC1C73D429C5A2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\splice.json",
+        "Hash":  "2926446F82F9BFE100079EB1AF38C1B1192B097BA5D70613E2302B6C25CC7D4C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\split-cards.json",
+        "Hash":  "4BC07898E60B642E80FFEB380CA217853F9578FD3B82E939AA10D63E39F83457"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\split-second.json",
+        "Hash":  "0F470939E59AFF81B00971BFAE1EBED1548ED26F75B33B82CE024C8CE43ABED7"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\spree.json",
+        "Hash":  "846C77572E908563A4F3CF5FD96F646A192A2AF0D6D0CF22D1F7536702CC26E4"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\squad.json",
+        "Hash":  "3F036E03863136261E106230C9DC1E5A5D50E50734CBE134683383BCB633D594"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\stack.json",
+        "Hash":  "D85D7970C6B48A2B83C4BC36D9F05DC59D113C9138FE961E4326C7FC4EC3346A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\starting-deck.json",
+        "Hash":  "B9865E3452C786C3DC3CCAF12DFD84F6AF20C3B1ACA56E93AA7B0BB5D282431D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\starting-hand-size.json",
+        "Hash":  "00375815A57DBBF26B43ECF1F5CBED4FEDFD5A613090FBFB18A1A216F1C2E799"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\starting-life-total.json",
+        "Hash":  "AACA0ECCDDC998462464E0CEE38FC67D372648D1270211F09C0CFA850C34FC56"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\starting-player.json",
+        "Hash":  "AC3796CBC36777EBA9038C12BD11E77C5B3246B5854D52DBE6D0C02264D0B732"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\starting-team.json",
+        "Hash":  "AEC95698D1827651CC35B9215F5A5EC266FA5DEAD858B63AF69B0E2CA2468B9A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\start-your-engines.json",
+        "Hash":  "7DDFC1DEEFB9F30DAF650EF2704336CE5622E1E84EF50AB2F4E69F70D0357F77"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\state-based-actions.json",
+        "Hash":  "360099745324C6F8F3C8C21E1152220348823B43180B00E6B54CC7FD85821031"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\state-trigger.json",
+        "Hash":  "61715ACB3590E3FA2104FA355365D1E08B23846BB2B3DE2413095C1E30E96971"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\static-ability.json",
+        "Hash":  "A63DF917A510387B6EF40603E2A2F45E808D8352FC14A83023711B888074677D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\station.json",
+        "Hash":  "25DC00448E4592F61964274862B0C8E8D9F22AE39988DB4B0C1A6024C988EFBA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\station-cards.json",
+        "Hash":  "691B0745340F6222D55D6721167314010559A54BA37917240CD4D9B612E189EA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\status.json",
+        "Hash":  "16AB529E8661D155ABCF86C272FFA73079DDD5586BEBD6486D6DA221906BAB06"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\step.json",
+        "Hash":  "49E6762C72C5D5415BD30B140AC204FC11016EFBE79EEF5EDB1A286987C74768"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\sticker.json",
+        "Hash":  "B0DF8FB75F77BE4CD6376CBBC8121866C12D7EA5AF159D49C996AEE91078AC2C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\sticker-kicker.json",
+        "Hash":  "DFA0C818CCB6475B0ACE324671897676B31BBB7804F6C3730A06707BAB1C0DF9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\sticker-sheet.json",
+        "Hash":  "EEDF2F53AB006DABBD0794F8170724972F4884B67C7E76A0D1C769DF9F2943E2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\storm.json",
+        "Hash":  "B19EF5ADCC730605EE401D67C1F946E017729D86532850BDF0B3C832C24337BA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\stun-counter.json",
+        "Hash":  "901926BB53FF1AEF2157C68DA33716AAB7E236644D289A95A92D57EAD16DB97C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\subgame.json",
+        "Hash":  "81A95954F657FC57890EC4E88F7B5DD39A74BF4A5465546C0EA25BB6E6974E3B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\substitute-card.json",
+        "Hash":  "DEAB7893CA0D97AFFE1F652B646C928D81BEADD7B2B92FE33F6CE9E04F4F94DB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\subtype.json",
+        "Hash":  "29FC74FDAE16ED252C3A7C360F32E8B02F39CF1E10D461EBFCF68E05CEB033BF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\successfully-cast-obsolete.json",
+        "Hash":  "D47784CC31B83189578FD6EC26960D9746C296AEFA3EECCD93700DC1EB07760A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\summoning-sickness-rule.json",
+        "Hash":  "E8CF75E2C3A8672696B0C5297F861753DA3070643A2B6378832A841922F84387"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\summon-obsolete.json",
+        "Hash":  "5C8F5A4D532BA02A7E05837142E9918B259C8588EA95938D32392D4D99B9C72A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\sunburst.json",
+        "Hash":  "217498534C8E1BCB27CB5F957DD90C4162F7211CA1DCC6C0AE2C2C7B260EB3CE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\supertype.json",
+        "Hash":  "047B598FDA035CFF600AD152007859A90A4AC47B7AB4E6D51830AE39F544C372"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\supervillain-rumble.json",
+        "Hash":  "2137710A85FC52CBA782E813E6CA1FDAFD033F8B12BC00A2715D27B845D59C48"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\support.json",
+        "Hash":  "70DB6F8B781C268A330042FC35E9CC9B1321DCE21D10373A15C90935BBC53C6F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\surge.json",
+        "Hash":  "CFDE33263CCB8CAD0D03AE43799C6CBC081079ED8028F5F14F88647BB7473D73"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\surveil.json",
+        "Hash":  "495245633D2BA5ACB4AD3783953572AB1F14EADE0757CC2BD928081656F36C69"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\suspend.json",
+        "Hash":  "27EE6FA0CDDB31F9B4FB1F7F453DEDDB0487EF33295601ED1E3025F7C4E9AACC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\swamp.json",
+        "Hash":  "3EDE2D3464C76D70796622609F5F24C524C1BB0BED0ACFE1429FC4B552942606"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\swampcycling.json",
+        "Hash":  "FA08E59E5885CD64249354A1BDA96F86888A0F89CFA85012F166A0045133A3A2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\s\\swampwalk.json",
+        "Hash":  "0AE696E696220EDC00789114F3F34303365C71FBE97D3113395F07F6D0D9FAFF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\tap.json",
+        "Hash":  "116648CEBC2BAB1A2471138697C899B8E8934FCB0A57AA7695A1E23375B3B179"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\tapped.json",
+        "Hash":  "5404C061C7775E13C88DC354FFBAD855247CBA05785C27EE9B62B9605EB83B47"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\tap-symbol.json",
+        "Hash":  "CB90A11AAD2C1BDB8C630C4B5F02DB8E75AB55A4087544155DE6018205B96B18"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\target.json",
+        "Hash":  "12B455382FA0C2DAA60BC7CE682B7403F70D0E35843C054C539EFFB8CB0A4B88"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\team.json",
+        "Hash":  "552B767F16FCB0D36DD082A7F84BD1EE172DB37B70858463980642F83D1D2A04"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\teammate.json",
+        "Hash":  "AC01BB73758723AAEF1A0A9445C148562DE2E4EA4A21A5D4DCEBC4B980C6867E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\team-vs-team-variant.json",
+        "Hash":  "4DE1B2708B95874552007AD40D8E3F46B3D69258B400FBA1D2D274FE773C917F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\teamwork.json",
+        "Hash":  "5885D52CFA7EB4B6BAE652567A63A44A4F18841BFB642BA0E8E8233277EB9177"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\text-box.json",
+        "Hash":  "A9D5D7ED071C58C91CF6ECC818CE7427F3E4B228F494E19780841E50822AF5F4"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\text-changing-effect.json",
+        "Hash":  "EFC62347D5CBA44291197B2A4BCF9EF3E82D26A9F755D3027C7C7DF697775CC5"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\the-ring.json",
+        "Hash":  "FDBB6EAE34C853D8B77E0A87A7EA0B2ACF832A580C2F7DA5B984D486C1E18865"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\the-ring-tempts-you.json",
+        "Hash":  "283306C41016402BACA876EA1ADAED013E1E60AABEF0649A3CCB7A7AA2B25C2E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\threshold.json",
+        "Hash":  "F84EA4260F867E594481A45FB11FF7C3F1F68C15BAF4B2A06D63EC7C1782F182"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\ticket-symbol.json",
+        "Hash":  "8B341F37C6DDFF9800E90F1739E1D472FC058F8FCE838435772436200D2E57A4"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\tiered.json",
+        "Hash":  "658DDEE5711F0589A1D2520FDC98F2A5F6DF94E2D85E1E172CD381E8E63C9DB6"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\timestamp-order.json",
+        "Hash":  "2CF37B4D5A458E088D3257FC8827187817E52C4222521CAA5C4B29AA5F0459FD"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\time-travel.json",
+        "Hash":  "DCF69F35D17B7A430E0A341FB9BBE395D8B79289B0E09B61CD64E5BEFE035A40"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\token.json",
+        "Hash":  "7780767845E4B1CB6003C60A77852530699BACF29A025CD734CD0E7E7A835C4C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\tombstone-icon.json",
+        "Hash":  "2E0B303144508E77A60843F1CEA9020BA6C3D5FD8AB7EDD67457E7983A4A6FCE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\total-casting-cost-obsolete.json",
+        "Hash":  "C6542B129FEEFF9EFE26F240309AE1CB796BA37510CB26A2421DD8F15DAAE856"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\total-cost.json",
+        "Hash":  "FC6B56802790833BBFC09C59FD8C56787254BF336ACCF6323C8CD3DC09C844ED"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\totem-armor-obsolete.json",
+        "Hash":  "938B4A6970459CECBDEA77C850FD93F2C68D7374365091B38EF6E14D0DDCE655"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\toughness.json",
+        "Hash":  "099AC33A5151A555A4DE434FCF241DBCD062DF6C6A9DF05452618F7FF3E5DC5B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\tournament.json",
+        "Hash":  "5CF256CBC8F3B39C90F06FC0F9C92040C34E3899C270A23CAA21EF984364B674"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\tournament-rules.json",
+        "Hash":  "C1866FCD7DF4F5DC89C632F0C13AEAD0E5517E791C93C636C2C89A9D0DADF579"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\toxic.json",
+        "Hash":  "091F5277693B2465EFC57A0D660117F75C890D435DBB1E8497DE9C64496E7744"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\traditional-magic-card.json",
+        "Hash":  "D473AFD602C6490743681975887814D052A35A382E67C8FFAE300E20898AA499"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\training.json",
+        "Hash":  "C067C311DDC03A60403A2648847389A2FD6D3E17B38BDA7A39676C68F63807E2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\trample.json",
+        "Hash":  "A24EED24E7E0BDAF671EB1C44CD44C19AB5E9DB894A8E4A9ED890E0188AB3FA2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\trample-over-planeswalkers.json",
+        "Hash":  "490CB35D3B21361952C59F3B733485932C66CA67ECF03476EEB22813098D8011"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\transfigure.json",
+        "Hash":  "F51EC7966613C4B8122093FEB39749A9D5F2D883D89968C78D6C8C5D8C63E659"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\transform.json",
+        "Hash":  "5B7181BE6919266BA9D7AF79DA8974E0335ECCA2267D80EC1BA4D9EE98D5B302"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\transforming-double-faced-cards-obsolete.json",
+        "Hash":  "33525E94B2CE59AA5A67000F4BF3B3F7E1D1D8C4193375F1E0250BDE5468250A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\transmute.json",
+        "Hash":  "63D738552E06DF2047C8E4324FD70F8A27DE3B32F6771AB52595F26FDEEC72B9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\treasure-token.json",
+        "Hash":  "D9B8F0F4EE878911DF79581C8D20DA8590B45CCF4664B4AC0E1CC6A33D7828FD"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\tribal-obsolete.json",
+        "Hash":  "29A8B940E1A163AA2B52A7A56BDFA3AB943127E1320B5205525CA88D7D2AE25E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\tribute.json",
+        "Hash":  "8E745F0832FE7FD9FD128D4AB768603DB98A5B9962FF315858C8A18EC2C010DB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\trigger.json",
+        "Hash":  "16A6BFA5440ADFCD45C93F60107A16E1A205EDEABDA599BB5D8478A716B940F6"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\trigger-condition.json",
+        "Hash":  "8779419C8890B42989AB3B4F2C4667FC3991B786D2FD9F3696756EA10104761B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\triggered-ability.json",
+        "Hash":  "5CFDEA2712FF3DF649936C60AEF8F3161EFABB32C2A4132C276A60827EDAC3D6"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\trigger-event.json",
+        "Hash":  "F0B4400D204FBCEFCDEFD55A6D1583C7F7AE6019C6074440FA4F401B8BE60F4C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\triple.json",
+        "Hash":  "E72F23141A80C830A7862C4518A2C45B1CD7A795EF47974BD5F6EA6FC7E6787B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\turn-based-actions.json",
+        "Hash":  "E4922CE2A1C76E5697A7AA1AB8C2C56A6302168EC0BE61579636DE00D9A4516B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\turn-markers.json",
+        "Hash":  "7823F6CC5A8054825C076F328417CDB7056833826B880BF03BDED4BEE1DF5F06"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\two-headed-giant-variant.json",
+        "Hash":  "90ECC4DFADB65BEDFAA2E29E584A3E1C1130329011E42210AAEE84153E0604D5"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\type.json",
+        "Hash":  "BD9067BCBC9B8CFD564140388EA0E6A6D87ED8EBEE3B520B1BCDD64C0BAFD8F1"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\type-changing-effect.json",
+        "Hash":  "DE64B00C1BD1727C36218403535F70D780F3314EF2E6E144217E95E5CA6EDCB3"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\typecycling.json",
+        "Hash":  "8867E77900843CB5BB15F823D0CEA70D0DDA7AB919D5975B10F6DF3696D188F6"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\type-icon.json",
+        "Hash":  "179037264D8A384C177E05FDD20D0EED247B0B98EF40E46F3E1614229E4A9664"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\t\\type-line.json",
+        "Hash":  "8BFD18262F22157460B4D0FA95088702A61D8F89CF84E23C2132534B81C05C88"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\u\\umbra-armor.json",
+        "Hash":  "A405DC310D825D1429C25D6D862CE13E7E608343985991900732E9CF73755ED2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\u\\unattach.json",
+        "Hash":  "4B63FE6CFBE732B94865467D64608C37FC61B9B11A4A68B3A34F0CBAD0729109"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\u\\unblockable-obsolete.json",
+        "Hash":  "3665D96C339668AF6AD33FE082B328DC3005B2D97B2633A9B660E9F243821E41"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\u\\unblocked-creature.json",
+        "Hash":  "496DDB3C3F618250E038475D1B21C637B6148EBD11186608EF848C0BD2055921"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\u\\undaunted.json",
+        "Hash":  "F2CC41093BA9BE08A25165C712877A1CE3C091D09AC5671B719357A4FA74E098"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\u\\undying.json",
+        "Hash":  "1E1BB1A6D774D553F50FF854A4C90AA6B5EBA730B3E50F05F03C9935B91BB5DB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\u\\unearth.json",
+        "Hash":  "68E73DF3703E14125FC3410FB230103614B73B5E07762704BC10AE3AF176C5BB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\u\\unflipped.json",
+        "Hash":  "C6FE1171F3AA85F99DD7A32339A3EE6B9689F8EFC1FEF61F97BA68C913C491D7"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\u\\unleash.json",
+        "Hash":  "BCAFA16786BA164617E6E4A2EC66B3E8215EFDE30A9CD7ECC2922030FB4513C3"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\u\\unless.json",
+        "Hash":  "D76F0F10EBAFF199878767CF1CFCB97737BBE8DE7B1BB8037C9F07F6AC2145B7"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\u\\unlock.json",
+        "Hash":  "7DE561A2C72B25890E5EBF4B6AA632AE079DEB86FF78A4CD010525CAF25F0E4D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\u\\unlocked.json",
+        "Hash":  "712837DBBCE17437AE7DA97D3F01E8CCDD23DFD83EA7E05836714909F0FAE1C9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\u\\unprepared.json",
+        "Hash":  "E39C6BA7288CE79AEC46978F10413622DAB256C89C16E6758E98A29B159C6CF7"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\u\\untap.json",
+        "Hash":  "34819A30F20CB4A2B012BD5A6E17F11A98023D1EEDDDC084F78A1A0F2BE231D4"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\u\\untapped.json",
+        "Hash":  "15893ECF14E147261496559D49F25A51A21AE1DB0CFBBB21AC1AFF9C7BF55057"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\u\\untap-step.json",
+        "Hash":  "16A552F654A372D3C17A1707EB9FA9055109D300BA48079D0BA9C5E226423F6F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\u\\untap-symbol.json",
+        "Hash":  "FB74AD56CF649A408E031A63D7DF6886DEC49BCFB1FB0410B9C250B1693478E5"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\u\\upkeep-step.json",
+        "Hash":  "3D3CAF517A9263602C3D1835889DAA91174DE793CC44BF1CB63D460DD9F6BDFA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\v\\vanguard.json",
+        "Hash":  "38DE4C217C89B7FC1FA350D3821271E4786C5405FFBFB335800CEF4CADABDF1B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\v\\vanishing.json",
+        "Hash":  "DC0D1800F0DF09890150FA7DBEE5B8CC52386DB2C1A8BF7E4EC1FAB548B69962"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\v\\variant.json",
+        "Hash":  "9BCF914EAB34AEFE9F515F94A706D450B2CE42D60E8978B07D55A9240B4092F2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\v\\vehicle.json",
+        "Hash":  "CDF62D2C3A65EFD348ED7E346FFA744CC6F18EB90B3878926033FCDB706E8958"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\v\\venture-into-quality.json",
+        "Hash":  "65574E4BCAB9CC90B5936F6D6FAF4B7631E5619F69143F421E6260C69350814C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\v\\venture-into-the-dungeon.json",
+        "Hash":  "C8474A1161B2805C31237F1BD1D879200545AA4676D5F7446BC7E7777F41CE8A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\v\\venture-marker.json",
+        "Hash":  "E007338AD073A04D2925FF76940FF4334AB0FAAC91452D1FD1F7E3DF1C4CB552"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\v\\vibranium-token.json",
+        "Hash":  "DCF47F40291403D6BE93B56D6FAAAB4BBC08798DC215F5E7D1A7973F67CAFCEF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\v\\vigilance.json",
+        "Hash":  "1A313528287E25B85D11931A343C545ED499B1698A52014684D69F11D7189676"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\v\\visit.json",
+        "Hash":  "796693373E196A7FEACB0143AAD0D45100DAD0B8BB22E153D2A4270CF9685BD6"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\v\\vote.json",
+        "Hash":  "4BCC84E6D2EBE69E307D11020EDD7AEC550F5544BACB8DD7397A679C04ECD7E5"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\w\\walker-token.json",
+        "Hash":  "E0E1851984B0671CFB8C857EFE643DB57E4129BCE393723102A017C6FE186174"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\w\\wall.json",
+        "Hash":  "7DDCC6D93A198DD7C8FA325363DF2536EBFE5A65865141DBFE014ECD73887C0C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\w\\ward.json",
+        "Hash":  "66B4E9BAF2EB68ACF43AF7BCC094B9E1611163302A04A58F69AA0F3DD442A938"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\w\\warp.json",
+        "Hash":  "ED5539AA14CC892441098C060CE229840412EE1EA4EF7AFF5856574E6B6BCDA9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\w\\waterbend.json",
+        "Hash":  "26AD0E47D25E0E1DC4B508E442CE242A783E8C38B9236C4D9F4FA72B31540009"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\w\\web-slinging.json",
+        "Hash":  "38D9ACC3347264675CC46F5CED64136C7F09DBFEA239F745F061E9D29A4D5D41"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\w\\win-the-game.json",
+        "Hash":  "CEF60E1F3CC60C78EAF4EFF9B590423B72EAC02055E080EFAA73DFFC0197633B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\w\\wither.json",
+        "Hash":  "2543C1E798F069C1C8781EA73A8B0C0905AEC3952D402CD992A5EA9B5C0DD8C4"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\w\\wizardcycling.json",
+        "Hash":  "EE91159BA4E61625231064F3D3A121E755F3BD54A7FBF6B6FF957BF88DFE546D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\w\\world.json",
+        "Hash":  "9BB3694ED1D4027F4B106C480AEA9728B6721C72666C778EB3CFA35C217B522D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\w\\world-rule.json",
+        "Hash":  "20F108F23C9A933F6825C86E0F6FD0201CFF3CC0A822B783AD92C2C537573F06"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\w\\worthy.json",
+        "Hash":  "F8A434843E9E5D072682CD8C3AE955F8E94CC7CE25B833AFED23D5A81048183C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\x\\x.json",
+        "Hash":  "319BDBBF9500BA113EEE9F82446800BE5BD70E0E4C4AF00D0E736725CDB5B7B9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\y\\y.json",
+        "Hash":  "58E650034BA419FECE4920732EA3803090D22D41876250A35EA3837526874E8A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\y\\you-your.json",
+        "Hash":  "E9B416825AE19C0ABBFB97E6E40B671F4E9FC6DF6C393EF6E5E1F268F9FE0F47"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\z\\zone.json",
+        "Hash":  "3141462A6E5A2FAF63EC4D933276C6D130A2A2912B44FFD6856B6676901278AF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\glossary\\z\\zone-change-triggers.json",
+        "Hash":  "5A6C0632B191B0CB24B236350F43902A660565B645953694738D76C2B85F3C1E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\100-general.json",
+        "Hash":  "F48285A35F98F15A208A3A80F2306113BA787FB909B903EEB2999E00C397DAFB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\101-the-magic-golden-rules.json",
+        "Hash":  "A545CEB7DE349551BAE9FB36236A703103CB00B76B8B283BAE0D2CBA7093E975"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\102-players.json",
+        "Hash":  "C47D8A5A45383060BE9F21DB0D95C05B5962D294CCFE68B885AC39265865AEB2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\103-starting-the-game.json",
+        "Hash":  "B960EF03F9C2B36D864F24F780D60C5F2B035A0187CEDCFBB35B909D502B7834"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\104-ending-the-game.json",
+        "Hash":  "E3EF9BFC3B398A7E9A1925215969E9DC7272C49E9628E9C9B24490A7961DBC9A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\105-colors.json",
+        "Hash":  "7B5191BD906F939FF3B6DACA9885F0767FDE00729C188A6FE5C9A6B94A25D42C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\106-mana.json",
+        "Hash":  "8C5F2F4B18BB7327941F72538C18E3365C9AB80E33FF612D44E29C12D02D4F31"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\107-numbers-and-symbols.json",
+        "Hash":  "3DD74A4ECA921D2EF0D36748F24F5E6FA9B13D43D84065DE12AB6A7DC3D54044"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\108-cards.json",
+        "Hash":  "A7ABF902FC123BF538E518A5AE2A4F43E984DC3B59C1E8EDBFF11E8998BAF5C8"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\109-objects.json",
+        "Hash":  "7463DBD04DA0AFEF2E5527B20630332282216452F038A0D8FD6AC59CD992DB63"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\110-permanents.json",
+        "Hash":  "C664CD58D7C2303C3113288B44C006D024FC0F6FF93982DAB92A39CF1ACEFCCD"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\111-tokens.json",
+        "Hash":  "8B3C33674164A05A6916039C5BCF81587EAE77C00E6D352CAF5075F1D5E30046"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\112-spells.json",
+        "Hash":  "C3FCD14825BC87986C125BCC11AB005DFB99FC681E61695AF9CC9B051793FCA6"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\113-abilities.json",
+        "Hash":  "6A31C84BB65B02058A4045251B5EF3885C458B6DF69F7D7187853EABCB744743"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\114-emblems.json",
+        "Hash":  "CCEE9BCF036AC53D461F037DEFF77E6436160DE891077F1D8D0F38E92175A70A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\115-targets.json",
+        "Hash":  "329B4B15CC63B877C8FD2FCB51D080DFBC9E570F247E7626A1B49F1B840EB6F6"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\116-special-actions.json",
+        "Hash":  "D50D58297C9611E16A696E8A02C7B5B02E521F5F4D164A332F876973A8F44145"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\117-timing-and-priority.json",
+        "Hash":  "1C3FEC0572E150A8DF61242A7415288E3FD99037B70C28DC61EA2BE7513B7EBA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\118-costs.json",
+        "Hash":  "5CB4B6C2E063E7159B42A783E22A33122EE168394B2896C7C2166A9B61B644BF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\119-life.json",
+        "Hash":  "D7E95334DD55968718E9656F76ADF9990DB7FD73234F91289D8C6DE563BDDC31"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\120-damage.json",
+        "Hash":  "C2CFFEB7DFDB3A95AE984DE0DF007C542A86A2408C075D38FB1D1866B52E6CB4"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\121-drawing-a-card.json",
+        "Hash":  "F2B9D1DD0FDA653FCDF322CDDBFF356CF3B42B6901E2661DC7FCF78F5EABCD7B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\122-counters.json",
+        "Hash":  "27FEC184AF1EA5C5C0589A6555E33854F7C5229FCED9D39B7392F4555D8BF028"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\123-stickers.json",
+        "Hash":  "2457E98AD53C32DB063C4C83473E86B337806F91AE7702CB3D4C2339C2B8CB5E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\200-general.json",
+        "Hash":  "3E0732BC9CE4B928548D940D4D0268C5C72ED7B71182B12FAB6D82046A959309"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\201-name.json",
+        "Hash":  "C3963655147AAF82528DDAB360FB7FA41A5905C3DFE800598418E0863B014185"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\202-mana-cost-and-color.json",
+        "Hash":  "5A0B19CD480112F1F0814BAE9E85A1BF1CDAF2E98788E0179E06354317B1443B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\203-illustration.json",
+        "Hash":  "059D654A9C7204DD535E9EC68B7E5AF7F563E6FF83614260649B87704A97F635"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\204-color-indicator.json",
+        "Hash":  "6747CBB643DC70486760E10846962C52B01FC334992B6BD00827F0A75C2381F2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\205-type-line.json",
+        "Hash":  "481B7872BD327483D768A1387D011C166334729368CBB44FF378012D875C3897"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\206-expansion-symbol.json",
+        "Hash":  "9B7E123B1DD6F0763B481FCD633A614CAF619683EC2944C584189A9F9CAD2D1A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\207-text-box.json",
+        "Hash":  "3FA8C35B16F96F7AA7CA4863254775E841071822F23E745F2CB5C2DAE871966C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\208-power-toughness.json",
+        "Hash":  "FA3D5DCBA8E3796777C8CD021EAE4A1AAD4ADE8DC23CA6F0DF5C370471093A3B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\209-loyalty.json",
+        "Hash":  "92A30E63FA25805FAEDC411FAD07767F204DAE6E92EF1797ED75A8AFC5AB1107"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\210-defense.json",
+        "Hash":  "2494E225B5E3513E1CCE93C7361791BC86DC83D0DF8B7CD6D018C668EA552FB4"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\211-hand-modifier.json",
+        "Hash":  "91ADD1354EC0ACC4CFA0A8583FB7787E743A5BC4C0326587B71BDAC5B54D8CB1"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\212-life-modifier.json",
+        "Hash":  "FD73F40FC7278F9CE96DD41AF8882B4E2E16C2B9C022A105E8962A2B5E39FA35"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\213-information-below-the-text-box.json",
+        "Hash":  "9F504FDE6969F0F7C60EC76EC0C22796E78FAD849D90A3319007DE9B6732D58F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\300-general.json",
+        "Hash":  "93AFDEB2D1A5C30AE14BDB8B63012D739EB1CCB05363A98C5AFA0BB708EBCAE5"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\301-artifacts.json",
+        "Hash":  "36C1E27B9D64054E503768EAF9519F662384C5A01DC001AD0F63ED7C811123C0"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\302-creatures.json",
+        "Hash":  "CC9EF23CE3AD38369A57237B9668B96FEE0ED4D98306A061A91F3AC9872AE4EB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\303-enchantments.json",
+        "Hash":  "782F7ABE808AC76D8234FC199BAB83818E6CC4519DB01E558A61426F3638D9B2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\304-instants.json",
+        "Hash":  "E423A10549B06C6CC25F11B51E511EF1F30270099F6E9CFFF09EF4BD6046B782"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\305-lands.json",
+        "Hash":  "6A398FB66D13EBBF9B2DF82C6159A0A89EE3709BE8522C92F411244437EAC4E1"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\306-planeswalkers.json",
+        "Hash":  "B2DCB5D656CB104F9ECAFB05764ED13BC3EDDCB593B3CD65ACD71EDBE3A955BD"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\307-sorceries.json",
+        "Hash":  "2B39D08FFA1626692113DF76D5A4522EA7577C11FD18C0917182DA22BC5D1A9F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\308-kindreds.json",
+        "Hash":  "C4B09707EEE02EA9208C6689C192A2455FE6F61AB2CDC3A63F074E789DBCF2C3"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\309-dungeons.json",
+        "Hash":  "0825F887ECA6C2787785E67929B780E71CC8C513933F3DAFC5B36E478096492B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\310-battles.json",
+        "Hash":  "ED2ABD5679E1E0C769C156974B9A568DF675F1FF809BE41C9E967A3F544E540B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\311-planes.json",
+        "Hash":  "7E35DFDFD81324E8D28F8F8BF9663A2B36EBD87BA529401CC5D02CF04AB1FAA5"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\312-phenomena.json",
+        "Hash":  "2DDAF21CC9465049A8456962578AB7F3E0765C787ACAEA69D62D7BF07D76C2BC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\313-vanguards.json",
+        "Hash":  "20BEAE355C674C43640D018AEC5D845FEEA218B296C9D458B22004A58B4E5386"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\314-schemes.json",
+        "Hash":  "B3AA16A367B27F72B34B16B0031CC4017EBB627B23928305EF8B687F11F05DBE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\315-conspiracies.json",
+        "Hash":  "A4EFD20FC127AA7F560506F653FF814F9B13E273ABA13D9B4F1B5E5D058C51FF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\400-general.json",
+        "Hash":  "E6953803B179439CA21AF7F610B13E1A371A843D194F4C462D5085BEC5306231"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\401-library.json",
+        "Hash":  "C43D48E998EC5E375A18237ACF84E70F889188AFCA33C529A3F1F70420543ABF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\402-hand.json",
+        "Hash":  "E57590A565FD9AA129A6BA880E1D583B22728FB71A49957F2590337A9EF0ADFF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\403-battlefield.json",
+        "Hash":  "07D0B80CCFDCE191035323F8FAAFC271D65C03E3F97BB8BF63E592FE5A2E693C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\404-graveyard.json",
+        "Hash":  "740F80B0A5B8BBD673F21BF3B693DF932BC9FF8C30ACE64C426A1997A39E8E9B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\405-stack.json",
+        "Hash":  "11EAE7EDD94A5430078081D0A3EB1D8F1231892C35E82D4262C75CECB04876FE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\406-exile.json",
+        "Hash":  "FA49B42B24AEB00B7322E4B923A808973641726B157BB519891DD7442CB6303A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\407-ante.json",
+        "Hash":  "B170B0951BC2F64EC19C1A1ACF3DC84995221FF38AF7E1EC4317F4EBD9FC3C9F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\408-command.json",
+        "Hash":  "6E7ABF21AF1A1CB3CE915E69029A55F3D489C0EF1ED657405CEBCEE18847CE53"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\500-general.json",
+        "Hash":  "8F92F94E1B90635578A9F69826EDFE13E77289BA4331CB87C073D84DB43AEB3F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\501-beginning-phase.json",
+        "Hash":  "73621F1A5C854713986D8F5CAAA72720E0B0C0D5C6A8303D33397B91680EE1A0"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\502-untap-step.json",
+        "Hash":  "44060EDFCF2296C7A0C595A6FF06E0D74B1D0AA79CB08CE7BEB77217E1B19342"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\503-upkeep-step.json",
+        "Hash":  "D82823DF7BEDB4556CF3E2701E2F5A9766CDCE895DB9EF1D7041BF5A21DA5541"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\504-draw-step.json",
+        "Hash":  "67CC4037EB6BB5EF3A9432769AA4234C110FFB1F10F743AF98B20E4675FDEAEC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\505-main-phase.json",
+        "Hash":  "167382B6B1E0450EC3CF50648F21280AF00CD8CFDCEE992C3E9C446E4D6DAB0B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\506-combat-phase.json",
+        "Hash":  "17DC49E3DFA9A7C57A8A50D3E2600A1154A0DCBEA786BF0444AA98254B406263"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\507-beginning-of-combat-step.json",
+        "Hash":  "38FD76B38D3B01678BBAD1C30F8E297ECF9E6827EB0D76B20B2732A1B7147FB1"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\508-declare-attackers-step.json",
+        "Hash":  "3AFDC06543616DB92751F87339A57E426EBFE16D680FD15B5164F1028626DB58"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\509-declare-blockers-step.json",
+        "Hash":  "EA49E514F021305C68007A9190F80B27A1B266E0FBA32EDD004811A86D63A135"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\510-combat-damage-step.json",
+        "Hash":  "C35F430EDB258B5DCF6C7E5F13A8F22547A6004C7690DA83B76CA6AC8F388DDE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\511-end-of-combat-step.json",
+        "Hash":  "C724D14C5C731ED52CDB1A56D3EB85AB17AD8BC8A587AFA1FA1D263C710780CE"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\512-ending-phase.json",
+        "Hash":  "AD389917976774F2765D389C64227E07D04A7D74E53B035EF1D2634956263054"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\513-end-step.json",
+        "Hash":  "4C0A766DD88D28CB0DA0C8BE036C8C41A9C828A102DA34FA9E9E037CA0D9D85B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\514-cleanup-step.json",
+        "Hash":  "A2E6C79DDDC7EA95E91231E47224D9BE9FDB4E19739368A4C8F7621D530C4464"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\600-general.json",
+        "Hash":  "9710E2B6B727198838D36CD075B7C8E2B9EC438DA22B3B7B76A69A843BA63695"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\601-casting-spells.json",
+        "Hash":  "8699A0F2A8F58C205DDC0A17DAF64446009A1CF71CBDCCC3DC61F63B1778E038"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\602-activating-activated-abilities.json",
+        "Hash":  "5B47686ED812C02FEA768BFB9AC46BD34D538AFB2B90CC915E8886D97B1599AB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\603-handling-triggered-abilities.json",
+        "Hash":  "AF4DDFEB5D65B4B5CC281CB1FAB4569C3AC56AD0DD2FC06051056A9C0AB2599E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\604-handling-static-abilities.json",
+        "Hash":  "D4C21ED5BEF0008078AFF746383B3E22FF82C72AD5ECB4585D75C9B76EDA155B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\605-mana-abilities.json",
+        "Hash":  "6F3D6405834E30794F50F0715F66D0D758BC70DD4C298F7C56F76D2E9F096A95"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\606-loyalty-abilities.json",
+        "Hash":  "E3F53C246FBD4D9AE548A8E2E3B9FDF256A1A83F01E2623ACB24438A1ED1BE68"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\607-linked-abilities.json",
+        "Hash":  "403779EBB626ECB16E921C1B94C6E752DA34E52BADBB32B450DBBF095A17EF06"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\608-resolving-spells-and-abilities.json",
+        "Hash":  "0BD2CDF4E58F90CCCC6A0552822A9155128C04B1C83CBE1B3E9263F5C8029727"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\609-effects.json",
+        "Hash":  "13757A1A4E94B33F0077CA88D407B9843072E9515CE7F175AF75810016F0494B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\610-one-shot-effects.json",
+        "Hash":  "75FFA0DD938A4BA075964CB1A78D37A1A8777EBCC9876DAC62A013FB4F501591"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\611-continuous-effects.json",
+        "Hash":  "8E31E924DBF658C557C40E2039036BA4CBCF0A0A10D32E20E5C5A1174C87EB2B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\612-text-changing-effects.json",
+        "Hash":  "EFD279A687ED4650F3F685B8757969D0B0DC9C12D4AABB514BADE1EA62FCE832"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\613-interaction-of-continuous-effects.json",
+        "Hash":  "AC57C3F37AF795972245DDB7D20CA8368AE26DF24FCD3D61B7FA822BC30B1433"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\614-replacement-effects.json",
+        "Hash":  "17C5B96E81503D85216C58DACB8E1AA49434AB197940D7BFCB029AB7E28B7BC6"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\615-prevention-effects.json",
+        "Hash":  "9E181E5791B98A1880D39B82E2E05D852C9F99E2F6D18CF1A620761886634B85"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\616-interaction-of-replacement-and-or-prevention-effects.json",
+        "Hash":  "EC1607B65FBF607F1EFFF4ECB0B5A01C2E9DF4B5DDED8AB690D7BF420F1D8D32"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\700-general.json",
+        "Hash":  "4686D7052E9BF505217A00EE951EA35C78AAD408304D3FE083C334EF0002D4EC"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\701-keyword-actions.json",
+        "Hash":  "D413D2D9E0E30D9850728E0B2D58A4C60866E15E68D861EBD41829BDD3143F41"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\702-keyword-abilities.json",
+        "Hash":  "E506797FDC65699E589FC51FF58D931B1FCAD4DE727C41E8F7CF4CB2B4BFB36E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\703-turn-based-actions.json",
+        "Hash":  "BD246C34B6FBB6E97AEC60CBFD4B9D93BAD9259A88D91751E4DE4E1444B416E7"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\704-state-based-actions.json",
+        "Hash":  "C03E3E3B3C922DA4D87773174B430FA5C86C98F14DB2EE50B07D41F6B64C3B5E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\705-flipping-a-coin.json",
+        "Hash":  "BBC9D01E33C4AF3980BCAE05BEE7FEABEF3EA83988275F0B0FB3A9B1677D00B9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\706-rolling-a-die.json",
+        "Hash":  "6416D7794587500ED1213A265B157F2A408A6DD822C1A9C3FF2CEF491030955C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\707-copying-objects.json",
+        "Hash":  "7D30FC79D9504000DED79B3F8670B39CADC6D5C08EBFFEABDEA3375DADABC5E4"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\708-face-down-spells-and-permanents.json",
+        "Hash":  "3036D20A0873C972F844D3A47959EB534232D8794A1EBB9E28A4544CF357928B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\709-split-cards.json",
+        "Hash":  "D72B75EEDDD5F88C1E166074563F0752940D7436BD2D77EBB0E21BFB4CA7B0B0"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\710-flip-cards.json",
+        "Hash":  "4005DD6684F0BCDE09267009B47D7DF5FE7118726748333B970F3D8879BA52C2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\711-leveler-cards.json",
+        "Hash":  "CFDD1F28D0470B39FCBCAF0318F634B1CFF988A011CC87DB51E34142EC90FC20"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\712-double-faced-cards.json",
+        "Hash":  "AF0EAEC47568F49C518085F8E9614809DA758CC920387AC3BEF3CE2E1C399B44"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\713-substitute-cards.json",
+        "Hash":  "1203C951BD72B7342DC3BBDA2619FAB60005B2F8786038807E652D6BB566ABD1"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\714-saga-cards.json",
+        "Hash":  "C61B1CD8926CF57D2CC1D3ABCAFAAA9B2FDB6C4DAC855BC1D092A40D35782587"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\715-adventurer-cards.json",
+        "Hash":  "0C0D27188314CD6EEB1D5A36F07C57735C0E71917E66F9E6DE4AA95B0686793A"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\716-class-cards.json",
+        "Hash":  "A77CCC91C4D16A1D6063E0E407DB7194645EC60E735134CB45C63A6270B41375"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\717-attraction-cards.json",
+        "Hash":  "72346381246814264C955F1E9765BE637B9E58D512EA8837D53618E5D229EA7B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\718-prototype-cards.json",
+        "Hash":  "A83041880353AA0CDFB07A42314394B558D4CA7A8A542C0C7CE86CD9E657129E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\719-case-cards.json",
+        "Hash":  "20EFB15C4D157519F449823E1615E00D1F47C3FF689E3258C04A2DA188DDDE75"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\720-omen-cards.json",
+        "Hash":  "BF57D86DF8A5A0B31AC0920CFC37E81297633602063A4459F035EF3D5EFBA9DF"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\721-station-cards.json",
+        "Hash":  "F0520A30D4FE2524A28CCEAA0396A5BFA510A1E94EB3F4CA0960A57D71902372"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\722-preparation-cards.json",
+        "Hash":  "68FE899337B7929738588B6C7B4DCB5B8E286F640656BBC31515140C7DDA4BD9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\723-controlling-another-player.json",
+        "Hash":  "7791B3E42F5038C61C1D196197866CF5FFBFCA6FD604E068F1623F5A317E6360"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\724-ending-turns-and-phases.json",
+        "Hash":  "5F16201ADDC2970F6B61F9ACD58F1E528652941C7FA62CD6DC5ED5745DA0EBB8"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\725-the-monarch.json",
+        "Hash":  "046B2AE0E718733493C034FFD90FD403FB33E035F75A221375ABFE682D688DD0"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\726-the-initiative.json",
+        "Hash":  "406DE1FCE5027819E39D134E1661B095F1C56698E9508B6844CD11D79EFEDDF2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\727-restarting-the-game.json",
+        "Hash":  "136E36AB4ABA8AA6889A788FC70F5923A7F3DB12F2A62BBB31249066812BC9EB"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\728-rad-counters.json",
+        "Hash":  "FBAE6255A68FADE205A1B2E2E5A042063D0393D0498B56EC9FD3D881CA9C3C11"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\729-subgames.json",
+        "Hash":  "9C584ACEA3E7B88419C05557A1381E8D873ABE14E8E3D287F88E4765053642B3"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\730-merging-with-permanents.json",
+        "Hash":  "95F6C4EEC247D1CB3269AAD64B8B4A03DA1C2FC2CFB29FDDE25EEF0C2050EB35"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\731-day-and-night.json",
+        "Hash":  "63A97100BC5778B324FED2A0A756F0DFAA1F976382B4A25806FE063407A68E17"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\732-taking-shortcuts.json",
+        "Hash":  "1B0B7E6A32CFE0A0643397EA856B6E2897F838FE17C8DBBF27307BE9D996B532"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\733-handling-illegal-actions.json",
+        "Hash":  "E90CC897F1ABDDB54C47B1B57A642078BAE40B9F1C7881EB35F5451AFCA57531"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\800-general.json",
+        "Hash":  "0C0825FFA76B5AD3230BD9CB3063887FA13CD042ABE39B90112D80F4A5276BF2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\801-limited-range-of-influence-option.json",
+        "Hash":  "E5054F928EA2703DEA32CEB2DFB3A79A0BB91948BAD088204CAE00CD8129CC21"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\802-attack-multiple-players-option.json",
+        "Hash":  "0A371E9E0985A96A1F837F1C80BF6858EC3FA6D766C3C9638D28B8996A5733B3"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\803-attack-left-and-attack-right-options.json",
+        "Hash":  "9410E82938A77B3B6B41B53FEFADED83301173BDBCB34C4D01EE0186290562CA"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\804-deploy-creatures-option.json",
+        "Hash":  "CF2D80137F610FCD7634917FB3200144E873C8278342462B444FBCC54AA4BA4E"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\805-shared-team-turns-option.json",
+        "Hash":  "786516D1FDDEEDE7111ABDFBD1A1BF207E4729D353545FD03A6922932E8C25F2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\806-free-for-all-variant.json",
+        "Hash":  "3547B6C68A5FFB517DBB35634F4D31A0D016DF3881AFAF9B69C4855469FF73C2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\807-grand-melee-variant.json",
+        "Hash":  "BAC3AB05F78E0692A7BDE179367F7FF922F7197E3B382A9877412AADD070CC79"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\808-team-vs-team-variant.json",
+        "Hash":  "102965F119C7B0EC7A17D27E2B40CDC056B43C87AD256DFE13F870AC8511CBA6"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\809-emperor-variant.json",
+        "Hash":  "5029BD4763EDB49137D411E0ABE2198BBC77B883FA88E829446FE8FFEF8F02F8"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\810-two-headed-giant-variant.json",
+        "Hash":  "9BFBDBD11BBCA382E832AFBDAFD256D8133CD5FC4B0B699FE4D496C20015D84C"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\811-alternating-teams-variant.json",
+        "Hash":  "04C95475E5BB9DC9423A3C7FD3A8FC5AB5BEB2E42327AEEC960DE0DB581677D2"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\900-general.json",
+        "Hash":  "3BF02D0E3673A1A2133F64CB37E7095BF09261CB584FC568D447A1E6B47D2D8D"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\901-planechase.json",
+        "Hash":  "DEA5B73D3FC5B7FB3FA5161E4F71D47772FE575F86150554304A3E3582202EF9"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\902-vanguard.json",
+        "Hash":  "BA496A446B28A37C384DFC2E78C6749C815FD1627E1CDC2CB8148DD12D7DFB0F"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\903-commander.json",
+        "Hash":  "7AD83EB2BFB96F5E5EFA6C41E44876FA0FDD3B3409CA458399D69F40BE009988"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\904-archenemy.json",
+        "Hash":  "5C6BFE06DAB4612D2A4F5B0E40F533145B11A9424028213A2E337B5298C7D46B"
+    },
+    {
+        "Path":  "rules-site\\data\\content\\rules\\905-conspiracy-draft.json",
+        "Hash":  "A465072DBE270DF9C0212CD29534DA0EFDCB532D339267C1C3957E3824856271"
+    },
+    {
+        "Path":  "rules-site\\data\\navigation.json",
+        "Hash":  "2E50DABF7CE62E15C6A024053025D5B48500748F2D2040ABA3C67E00AE129389"
+    },
+    {
+        "Path":  "rules-site\\data\\search-index.json",
+        "Hash":  "85621E0B5817D74982D97F7B4E62F0904B58CCE11E2F427BCE10996EA68189E0"
+    },
+    {
+        "Path":  "rules-site\\data\\tooltip-previews.json",
+        "Hash":  "81F6E173DB15BE26BB25FE5A403EC3E38F0C6F7DC8FE903EC520040F5E3E9AE7"
+    }
+]

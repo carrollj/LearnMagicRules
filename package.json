@@ -1,0 +1,23 @@
+{
+  "name": "learn-magic-rules",
+  "private": true,
+  "version": "1.0.0",
+  "description": "TypeScript parser pipeline for Magic Comprehensive Rules outputs",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "lint": "npm run typecheck",
+    "generate": "node dist/parseComprehensiveRules.js",
+    "check:determinism": "node dist/scripts/determinismCheck.js",
+    "benchmark": "node dist/scripts/benchmark.js",
+    "test": "node --test dist/tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}

@@ -13,4 +13,3 @@ It is content data, not application code/specs for feature implementation.
 
 - Only access this folder when the user explicitly asks for work inside `comprehensive-rules/`.
 - If access is needed, keep reads narrowly targeted to the exact files requested.
-
