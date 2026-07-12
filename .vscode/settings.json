@@ -8,5 +8,13 @@
             "approve": true,
             "matchCommandLine": true
         }
+    },
+    "search.exclude": {
+        "comprehensive-rules/**": true
+    },
+    "chat.useNestedAgentsMdFiles": true,
+    "chat.includeReferencedInstructions": true,
+    "files.watcherExclude": {
+        "**/comprehensive-rules/**": true
     }
 }
