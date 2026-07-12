@@ -1,5 +1,4 @@
 import tooltipStyleText from './styles/tooltipStyle.scss?inline';
-import './styles/app.scss';
 
 const sidebar = document.getElementById('sidebar');
 const appShell = document.getElementById('app-shell');
@@ -1566,7 +1565,6 @@ async function start() {
   app.navigation = navigation;
   app.searchIndex = searchIndex;
   app.previews = previews;
-  initializeTheme();
   initializeSidebarCollapse();
   syncEffectiveDate();
   renderSidebar();
@@ -1595,4 +1593,5 @@ document.addEventListener('rule-tooltip-open-request', onTooltipOpenRequest);
 document.addEventListener('rule-tooltip-close-request', onTooltipCloseRequest);
 document.addEventListener('rule-tooltip-navigate-request', onTooltipNavigateRequest);
 
+initializeTheme();
 void start();

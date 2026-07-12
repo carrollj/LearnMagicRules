@@ -4,7 +4,19 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Magic Rules Browser</title>
-
+  <link rel="stylesheet" href="./src/styles/app.scss">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('rules-browser-theme');
+        if (t === 'dark' || t === 'light') {
+          document.documentElement.dataset.theme = t;
+        } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          document.documentElement.dataset.theme = 'dark';
+        }
+      } catch (e) {console.log(e);}
+    })();
+  </script>
 </head>
 <body>
   <div class="app-shell" id="app-shell">
