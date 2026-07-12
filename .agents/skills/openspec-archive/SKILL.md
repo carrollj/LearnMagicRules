@@ -58,6 +58,7 @@ Archive a completed change in the experimental workflow.
 
    **If delta specs exist:**
    - Compare each delta spec with its corresponding main spec at `openspec/specs/<capability>/spec.md`
+   - If there is no corresponding main spec, treat it as a new spec to be added
    - Determine what changes would be applied (adds, modifications, removals, renames)
    - Show a combined summary before prompting
 

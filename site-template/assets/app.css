@@ -104,6 +104,7 @@ input {
   top: 0;
   height: 100vh;
   backdrop-filter: blur(6px);
+  transition: width 180ms ease, flex-basis 180ms ease, padding 180ms ease;
 }
 
 .sidebar-header {
@@ -165,6 +166,13 @@ input {
   color: var(--accent);
 }
 
+.sidebar-brand,
+.sidebar-toolbar,
+.sidebar-content,
+.sidebar-footer {
+  transition: opacity 160ms ease, transform 180ms ease, visibility 0s linear 0s, max-width 180ms ease, margin 180ms ease, padding 180ms ease;
+}
+
 .app-shell.sidebar-collapsed .sidebar {
   padding: 0.65rem;
 }
@@ -173,11 +181,28 @@ input {
   justify-content: center;
 }
 
-.app-shell.sidebar-collapsed .sidebar-brand,
+.app-shell.sidebar-collapsed .sidebar-brand {
+  max-width: 0;
+  opacity: 0;
+  transform: translateX(-0.35rem);
+  visibility: hidden;
+  overflow: hidden;
+  pointer-events: none;
+}
+
 .app-shell.sidebar-collapsed .sidebar-toolbar,
-.app-shell.sidebar-collapsed .sidebar-content,
+.app-shell.sidebar-collapsed .sidebar-content {
+  opacity: 0;
+  transform: translateY(-0.35rem);
+  visibility: hidden;
+  pointer-events: none;
+}
+
 .app-shell.sidebar-collapsed .sidebar-footer {
-  display: none;
+  opacity: 0;
+  transform: translateY(0.35rem);
+  visibility: hidden;
+  pointer-events: none;
 }
 
 .sidebar-header h1 {
@@ -931,5 +956,15 @@ input {
 
   .reader-pane-body {
     max-height: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sidebar,
+  .sidebar-brand,
+  .sidebar-toolbar,
+  .sidebar-content,
+  .sidebar-footer {
+    transition: none !important;
   }
 }
