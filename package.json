@@ -9,8 +9,6 @@
     "dev": "node scripts/check-build-artifacts.js && vite",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "lint": "npm run typecheck",
-    "check:determinism": "node dist/scripts/determinismCheck.js",
-    "benchmark": "node dist/scripts/benchmark.js",
     "test": "node --test dist/tests/*.test.js"
   },
   "engines": {
