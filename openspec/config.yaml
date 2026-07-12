@@ -3,11 +3,14 @@ schema: spec-driven
 # Project context (optional)
 # This is shown to AI when creating artifacts.
 # Add your tech stack, conventions, style guides, domain knowledge, etc.
-# Example:
-#   context: |
-#     Tech stack: TypeScript, React, Node.js
-#     We use conventional commits
-#     Domain: e-commerce platform
+context: |
+  Tech stack: TypeScript (ES2022, NodeNext), Vite 6, vanilla JS (no framework), SCSS, Node.js >=20
+  Build pipeline: tsc → node dist/parseComprehensiveRules.js → vite build
+  Output: static site in dist/, deployed to GitHub Pages at /LearnMagicRules/
+  Frontend: single HTML shell (website/index.html), app logic in website/src/app.js, styles in website/src/styles/, layout controlled with flexbox, responsive design, no framework
+  Data: parser emits JSON bundles (navigation.json, search-index.json, tooltip-previews.json, data/content/*.json) into .build/generated/ which Vite copies as publicDir
+  Domain: Magic: The Gathering Comprehensive Rules browser; source rules in source/, markdown rules in comprehensive-rules/
+  Conventions: camelCase for private instance fields, _snakeCase for private static fields, strict TypeScript with exactOptionalPropertyTypes
 
 # Per-artifact rules (optional)
 # Add custom rules for specific artifacts.
