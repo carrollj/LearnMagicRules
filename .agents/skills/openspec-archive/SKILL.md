@@ -23,7 +23,7 @@ Archive a completed change in the experimental workflow.
    Show only active changes (not already archived).
    Include the schema used for each change if available.
 
-   **IMPORTANT**: Do NOT guess or auto-select a change. Always let the user choose.
+   **IMPORTANT**: If there is more than one active change, do NOT guess or auto-select one. Always let the user choose.
 
 2. **Check artifact completion status**
 

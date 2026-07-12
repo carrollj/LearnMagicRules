@@ -48,3 +48,15 @@ The TypeScript parser MUST implement glossary auto-linking with an algorithm tha
 #### Scenario: Performance gate for glossary matching
 - **WHEN** parser performance is measured on the canonical rules source
 - **THEN** glossary matching does not dominate runtime in a way consistent with O(lines x variants) scanning behavior
+
+### Requirement: Parser cleanup preserves AGENTS guidance files
+The parser cleanup process MUST NOT delete files whose basename is exactly `AGENTS.md` when cleaning generated output roots.
+
+#### Scenario: Preserve AGENTS file during cleanup
+- **WHEN** parser cleanup processes a directory containing an `AGENTS.md` file and stale generated files
+- **THEN** the `AGENTS.md` file remains present after cleanup
+- **AND** stale generated files that are not protected are deleted
+
+#### Scenario: Preserve nested AGENTS files
+- **WHEN** parser cleanup recursively processes nested output directories that contain `AGENTS.md`
+- **THEN** each `AGENTS.md` file remains present regardless of directory depth

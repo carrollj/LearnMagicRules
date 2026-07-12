@@ -18,6 +18,8 @@ const SITE_DATA_PATH = path.join(SITE_OUTPUT_PATH, "data");
 const SITE_CONTENT_PATH = path.join(SITE_DATA_PATH, "content");
 const RULES_PAGE_URL = "https://magic.wizards.com/en/rules";
 const USER_AGENT = "LearnMagicRulesParserTS/1.0";
+// Preserve agent instruction files when cleaning generated outputs.
+const PRESERVED_OUTPUT_FILE_BASENAMES = new Set(["AGENTS.md"]);
 
 const MAJOR_HEADER_RE = /^(\d)\. (.+)$/;
 const SECTION_HEADER_RE = /^(\d{3})\. (.+)$/;
@@ -1461,15 +1463,40 @@ function writeMarkdownOutputs(
   writeMarkdownGlossaryIndexes(glossaryEntries);
 }
 
+export function cleanOutputDirectory(outputPath: string): void {
+  if (!fs.existsSync(outputPath)) {
+    fs.mkdirSync(outputPath, { recursive: true });
+    return;
+  }
+
+  function cleanDirectory(currentPath: string): void {
+    const entries = fs.readdirSync(currentPath, { withFileTypes: true });
+    for (const entry of entries) {
+      const entryPath = path.join(currentPath, entry.name);
+      if (entry.isDirectory()) {
+        cleanDirectory(entryPath);
+        const remaining = fs.readdirSync(entryPath);
+        if (remaining.length === 0) {
+          fs.rmdirSync(entryPath);
+        }
+        continue;
+      }
+
+      if (PRESERVED_OUTPUT_FILE_BASENAMES.has(entry.name)) {
+        continue;
+      }
+
+      fs.rmSync(entryPath, { force: true });
+    }
+  }
+
+  cleanDirectory(outputPath);
+  fs.mkdirSync(outputPath, { recursive: true });
+}
+
 function cleanOutputs(): void {
-  if (fs.existsSync(MARKDOWN_OUTPUT_PATH)) {
-    fs.rmSync(MARKDOWN_OUTPUT_PATH, { recursive: true, force: true });
-  }
-  if (fs.existsSync(SITE_OUTPUT_PATH)) {
-    fs.rmSync(SITE_OUTPUT_PATH, { recursive: true, force: true });
-  }
-  fs.mkdirSync(MARKDOWN_OUTPUT_PATH, { recursive: true });
-  fs.mkdirSync(SITE_OUTPUT_PATH, { recursive: true });
+  cleanOutputDirectory(MARKDOWN_OUTPUT_PATH);
+  cleanOutputDirectory(SITE_OUTPUT_PATH);
 }
 
 export async function parseRules(): Promise<void> {
