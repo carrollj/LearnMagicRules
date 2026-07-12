@@ -30,6 +30,8 @@ jobs:
           cache: npm
 
       - name: Build rules site
+        env:
+          VITE_BASE_PATH: /LearnMagicRules/
         run: |
           npm ci
           npm run build
