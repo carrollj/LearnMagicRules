@@ -1,5 +1,6 @@
 rules-site/
 source/
+.build/
 
 # Dependencies
 node_modules/

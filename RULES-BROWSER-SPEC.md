@@ -1,3 +1,7 @@
+# IMPORTANT NOTE - DEPRECATED
+
+**These specs are LEGACY specs, and may be stale or out of date. They are currently only kept for reference when creating new specs with OpenSpec.**
+
 # Magic Rules Browser Specification
 
 ## Purpose

@@ -7,7 +7,9 @@
         "/^Set-Location \"c:\\\\Users\\\\Justin\\\\Documents\\\\LearnMagicRules\\\\rules-site\"; python -m http\\.server 8765$/": {
             "approve": true,
             "matchCommandLine": true
-        }
+        },
+        "npx tsc": true,
+        "npx vite": true
     },
     "search.exclude": {
         "comprehensive-rules/**": true

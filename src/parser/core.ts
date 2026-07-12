@@ -12,8 +12,7 @@ const SOURCE_DIRECTORY = path.join(ROOT, "source");
 const SOURCE_PATH = path.join(SOURCE_DIRECTORY, "MagicCompRules-current.txt");
 const SOURCE_METADATA_PATH = path.join(SOURCE_DIRECTORY, "MagicCompRules-current.json");
 const MARKDOWN_OUTPUT_PATH = path.join(ROOT, "comprehensive-rules");
-const SITE_OUTPUT_PATH = path.join(ROOT, "rules-site");
-const SITE_ASSETS_PATH = path.join(SITE_OUTPUT_PATH, "assets");
+const SITE_OUTPUT_PATH = path.join(ROOT, ".build", "generated");
 const SITE_DATA_PATH = path.join(SITE_OUTPUT_PATH, "data");
 const SITE_CONTENT_PATH = path.join(SITE_DATA_PATH, "content");
 const RULES_PAGE_URL = "https://magic.wizards.com/en/rules";
@@ -1396,17 +1395,6 @@ function writeSiteGlossaryBundle(
   });
 }
 
-function writeSiteShell(): void {
-  fs.mkdirSync(SITE_OUTPUT_PATH, { recursive: true });
-  fs.mkdirSync(SITE_ASSETS_PATH, { recursive: true });
-  const templateRoot = path.join(ROOT, "site-template");
-
-  fs.copyFileSync(path.join(templateRoot, "index.html"), path.join(SITE_OUTPUT_PATH, "index.html"));
-  fs.copyFileSync(path.join(templateRoot, "assets", "app.css"), path.join(SITE_ASSETS_PATH, "app.css"));
-  fs.copyFileSync(path.join(templateRoot, "assets", "app.js"), path.join(SITE_ASSETS_PATH, "app.js"));
-  fs.copyFileSync(path.join(templateRoot, "assets", "tooltipStyle.css"), path.join(SITE_ASSETS_PATH, "tooltipStyle.css"));
-}
-
 function writeSiteBundles(
   chapters: Chapter[],
   sections: Section[],
@@ -1438,7 +1426,6 @@ function writeSiteBundles(
     path.join(SITE_DATA_PATH, "tooltip-previews.json"),
     buildPreviewBundle(sectionRules, sectionLookup, glossaryEntries, ruleLookup, glossaryLookup, glossaryMatcher, childrenMap),
   );
-  writeSiteShell();
 }
 
 function writeMarkdownOutputs(

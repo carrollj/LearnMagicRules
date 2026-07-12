@@ -5,10 +5,10 @@
   "description": "TypeScript parser pipeline for Magic Comprehensive Rules outputs",
   "type": "module",
   "scripts": {
-    "build": "tsc -p tsconfig.json",
+    "build": "tsc -p tsconfig.json && node dist/parseComprehensiveRules.js && vite build",
+    "dev": "node scripts/check-build-artifacts.js && vite",
     "typecheck": "tsc -p tsconfig.json --noEmit",
     "lint": "npm run typecheck",
-    "generate": "node dist/parseComprehensiveRules.js",
     "check:determinism": "node dist/scripts/determinismCheck.js",
     "benchmark": "node dist/scripts/benchmark.js",
     "test": "node --test dist/tests/*.test.js"
@@ -18,6 +18,8 @@
   },
   "devDependencies": {
     "@types/node": "^22.10.2",
-    "typescript": "^5.7.2"
+    "sass": "^1.89.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.3.5"
   }
 }
