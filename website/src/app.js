@@ -18,6 +18,7 @@ const app = {
   navigation: null,
   searchIndex: null,
   previews: null,
+  cheatSheet: null,
   mode: 'rules',
   route: { type: 'index' },
   searchQuery: '',
@@ -32,10 +33,14 @@ const TOOLTIP_HALO_PADDING_X_PX = 6;
 const TOOLTIP_HALO_PADDING_Y_PX = 16;
 const THEME_STORAGE_KEY = 'rules-browser-theme';
 const SIDEBAR_COLLAPSE_STORAGE_KEY = 'rules-browser-sidebar-collapsed';
+const CHEAT_SHEET_STORAGE_KEY = 'cheat-sheet';
+const CHEAT_SHEET_MAX_RESULTS = parseInt(import.meta.env.VITE_CHEAT_SHEET_MAX_RESULTS ?? '10', 10);
+const CHEAT_SHEET_SEARCH_DEBOUNCE_MS = parseInt(import.meta.env.VITE_CHEAT_SHEET_SEARCH_DEBOUNCE_MS ?? '300', 10);
 
 let desktopSidebarCollapsed = false;
 let tooltipIdCounter = 0;
 let sharedTooltipStyleSheet = null;
+let panelDragState = null;
 
 function applyTooltipStyles(shadowRoot) {
   if (!sharedTooltipStyleSheet && 'adoptedStyleSheets' in Document.prototype && 'replaceSync' in CSSStyleSheet.prototype) {
@@ -1237,6 +1242,613 @@ async function renderReaderLayout(readerState, options = {}) {
   }
 }
 
+// ─── Cheat Sheet Storage ────────────────────────────────────────────────────
+
+function generateId() {
+  return `${Date.now().toString(36)}-${Math.random().toString(36).slice(2)}`;
+}
+
+function defaultCheatSheet() {
+  return { id: generateId(), name: 'My Cheat Sheet', panels: [] };
+}
+
+function loadCheatSheet() {
+  try {
+    const raw = localStorage.getItem(CHEAT_SHEET_STORAGE_KEY);
+    if (!raw) return defaultCheatSheet();
+    const parsed = JSON.parse(raw);
+    if (!parsed || typeof parsed !== 'object' || !Array.isArray(parsed.panels)) {
+      return defaultCheatSheet();
+    }
+    return parsed;
+  } catch {
+    return defaultCheatSheet();
+  }
+}
+
+function saveCheatSheet() {
+  try {
+    localStorage.setItem(CHEAT_SHEET_STORAGE_KEY, JSON.stringify(app.cheatSheet));
+  } catch {
+    // Ignore storage failures.
+  }
+}
+
+// ─── Cheat Sheet Mutations ───────────────────────────────────────────────────
+
+function addPanel() {
+  const panel = { id: generateId(), title: 'New Panel', items: [] };
+  app.cheatSheet.panels.push(panel);
+  saveCheatSheet();
+  renderCheatSheet();
+}
+
+function removePanel(panelId) {
+  app.cheatSheet.panels = app.cheatSheet.panels.filter(p => p.id !== panelId);
+  saveCheatSheet();
+  renderCheatSheet();
+}
+
+function reorderPanels(fromIndex, toIndex) {
+  if (fromIndex === toIndex) return;
+  const panels = app.cheatSheet.panels;
+  const [moved] = panels.splice(fromIndex, 1);
+  panels.splice(toIndex, 0, moved);
+  saveCheatSheet();
+  renderCheatSheet();
+}
+
+function renamePanel(panelId, newTitle) {
+  const panel = app.cheatSheet.panels.find(p => p.id === panelId);
+  if (!panel || panel.title === newTitle) return;
+  panel.title = newTitle;
+  saveCheatSheet();
+}
+
+function addItem(panelId, item) {
+  const panel = app.cheatSheet.panels.find(p => p.id === panelId);
+  if (!panel) return;
+  panel.items.push(item);
+  saveCheatSheet();
+  renderCheatSheet();
+}
+
+function removeItem(panelId, itemIndex) {
+  const panel = app.cheatSheet.panels.find(p => p.id === panelId);
+  if (!panel) return;
+  panel.items.splice(itemIndex, 1);
+  saveCheatSheet();
+  renderCheatSheet();
+}
+
+function setItemDisplayMode(panelId, itemIndex, displayMode) {
+  const panel = app.cheatSheet.panels.find(p => p.id === panelId);
+  if (!panel || !panel.items[itemIndex]) return;
+  panel.items[itemIndex].displayMode = displayMode;
+  saveCheatSheet();
+  renderCheatSheet();
+}
+
+// ─── Cheat Sheet Export / Import ────────────────────────────────────────────
+
+function exportCheatSheet() {
+  const json = JSON.stringify(app.cheatSheet, null, 2);
+  const blob = new Blob([json], { type: 'application/json' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `${app.cheatSheet.name.replace(/[^a-z0-9]+/gi, '-').toLowerCase()}.json`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+  URL.revokeObjectURL(url);
+}
+
+function importCheatSheet() {
+  const input = document.createElement('input');
+  input.type = 'file';
+  input.accept = '.json,application/json';
+  input.addEventListener('change', async () => {
+    const file = input.files?.[0];
+    if (!file) return;
+    try {
+      const text = await file.text();
+      const parsed = JSON.parse(text);
+      if (!parsed || typeof parsed !== 'object' || !Array.isArray(parsed.panels)) {
+        throw new Error('Invalid cheat sheet format');
+      }
+      app.cheatSheet = parsed;
+      saveCheatSheet();
+      renderCheatSheet();
+    } catch (err) {
+      // eslint-disable-next-line no-alert
+      alert(`Could not import cheat sheet: ${err.message}`);
+    }
+  });
+  input.click();
+}
+
+// ─── Cheat Sheet Item Helpers ────────────────────────────────────────────────
+
+function previewKeyForItem(item) {
+  if (item.type === 'rule') {
+    return item.anchor?.replace(/^rule-/, '').replaceAll('-', '.') || null;
+  }
+  if (item.type === 'glossary') {
+    return item.pageId?.split('/')[1] || null;
+  }
+  return null;
+}
+
+function getPreviewForItem(item) {
+  if (!app.previews) return null;
+  const key = previewKeyForItem(item);
+  if (!key) return null;
+  return item.type === 'rule'
+    ? (app.previews.rules?.[key] || null)
+    : (app.previews.glossary?.[key] || null);
+}
+
+function itemNavRoute(item) {
+  if (item.anchor) return `#${item.pageId}/${item.anchor}`;
+  return `#${item.pageId}`;
+}
+
+function renderRuleCardBody(preview) {
+  const ruleKey = preview.anchor?.replace(/^rule-/, '').replaceAll('-', '.');
+  if (!ruleKey || !preview.subruleCount) return preview.html;
+  const subruleKeys = Array.from({ length: preview.subruleCount }, (_, i) =>
+    `${ruleKey}${String.fromCharCode(97 + i)}`
+  );
+  const subrulesHtml = subruleKeys
+    .map(k => app.previews?.rules?.[k]?.html ?? '')
+    .join('');
+  return preview.html + subrulesHtml;
+}
+
+// ─── Cheat Sheet Item Rendering ─────────────────────────────────────────────
+
+function renderCheatSheetItemHtml(panel, item, index) {
+  const preview = getPreviewForItem(item);
+  const isCard = item.displayMode === 'card';
+  const hasSubrules = item.type === 'rule' && preview && preview.subruleCount > 0;
+  const canToggle = hasSubrules || item.type === 'glossary';
+  const navRoute = itemNavRoute(item);
+
+  let contentHtml;
+  if (isCard && item.type === 'rule' && preview) {
+    contentHtml = renderRuleCardBody(preview);
+  } else if (isCard && item.type === 'glossary') {
+    contentHtml = `<div class="item-card-loading" data-loading-panel-id="${escapeHtml(panel.id)}" data-loading-item-index="${index}">Loading…</div>`;
+  } else {
+    contentHtml = preview
+      ? preview.html
+      : `<p class="item-missing">Content not available.</p>`;
+  }
+
+  const toggleBtn = canToggle
+    ? `<button type="button" class="item-btn item-toggle-btn" data-action="toggle-item-mode" data-panel-id="${escapeHtml(panel.id)}" data-item-index="${index}" aria-label="${isCard ? 'Collapse' : 'Expand'}" title="${isCard ? 'Collapse' : 'Expand'}">${isCard ? '⊟' : '⊞'}</button>`
+    : '';
+
+  return `
+    <div class="cheat-sheet-item${isCard ? ' cheat-sheet-item--card' : ''}" data-panel-id="${escapeHtml(panel.id)}" data-item-index="${index}">
+      <div class="item-actions">
+        ${toggleBtn}
+        <a href="${escapeHtml(navRoute)}" class="item-btn item-nav-btn" data-target-route="${escapeHtml(navRoute)}" aria-label="Open in reader" title="Open in reader">↗</a>
+        <button type="button" class="item-btn item-remove-btn" data-action="remove-item" data-panel-id="${escapeHtml(panel.id)}" data-item-index="${index}" aria-label="Remove" title="Remove">×</button>
+      </div>
+      <div class="item-content">
+        ${contentHtml}
+      </div>
+    </div>
+  `;
+}
+
+function renderCheatSheetPanelHtml(panel) {
+  const itemsHtml = panel.items.map((item, i) => renderCheatSheetItemHtml(panel, item, i)).join('');
+  return `
+    <article class="cheat-sheet-panel" data-panel-id="${escapeHtml(panel.id)}">
+      <header class="cheat-sheet-panel-header" data-panel-id="${escapeHtml(panel.id)}">
+        <span class="drag-handle" aria-hidden="true">⠿</span>
+        <input
+          type="text"
+          class="panel-title-input"
+          value="${escapeHtml(panel.title)}"
+          data-panel-id="${escapeHtml(panel.id)}"
+          aria-label="Panel title"
+          spellcheck="false"
+        >
+        <button type="button" class="panel-btn panel-remove-btn" data-action="remove-panel" data-panel-id="${escapeHtml(panel.id)}" aria-label="Remove panel" title="Remove panel">×</button>
+      </header>
+      <div class="cheat-sheet-panel-body">
+        ${itemsHtml || '<p class="panel-empty">Search below to add items.</p>'}
+      </div>
+      <footer class="cheat-sheet-panel-footer">
+        <div class="panel-search-wrapper" data-panel-id="${escapeHtml(panel.id)}">
+          <input
+            type="search"
+            class="panel-search-input"
+            placeholder="Search to add…"
+            autocomplete="off"
+            spellcheck="false"
+            data-panel-id="${escapeHtml(panel.id)}"
+          >
+          <ul class="panel-search-results" role="listbox" aria-label="Search results" hidden></ul>
+        </div>
+      </footer>
+    </article>
+  `;
+}
+
+function renderCheatSheet() {
+  if (!app.cheatSheet) return;
+  const { panels } = app.cheatSheet;
+  const panelsHtml = panels.map(panel => renderCheatSheetPanelHtml(panel)).join('');
+
+  mainView.innerHTML = `
+    <section class="cheat-sheet-view">
+      <div class="cheat-sheet-grid" id="cheat-sheet-grid">
+        ${panelsHtml}
+      </div>
+      <button type="button" class="cheat-sheet-add-panel" data-action="add-panel" aria-label="Add panel" title="Add panel">+</button>
+    </section>
+  `;
+
+  // Wire up panel title inputs
+  mainView.querySelectorAll('.panel-title-input').forEach(input => {
+    input.addEventListener('blur', () => {
+      renamePanel(input.dataset.panelId, input.value.trim() || 'New Panel');
+    });
+    input.addEventListener('keydown', e => {
+      if (e.key === 'Enter') input.blur();
+    });
+  });
+
+  // Wire up panel search inputs
+  mainView.querySelectorAll('.panel-search-input').forEach(wirePanelSearchInput);
+
+  // Load async glossary card content
+  void loadGlossaryCardContent();
+}
+
+async function loadGlossaryCardContent() {
+  const loadingEls = Array.from(mainView.querySelectorAll('.item-card-loading'));
+  for (const el of loadingEls) {
+    const panelId = el.dataset.loadingPanelId;
+    const itemIndex = parseInt(el.dataset.loadingItemIndex, 10);
+    const panel = app.cheatSheet?.panels.find(p => p.id === panelId);
+    const item = panel?.items[itemIndex];
+    if (!item || item.type !== 'glossary') continue;
+    try {
+      const destination = destinationForPageId(item.pageId, null);
+      const bundle = await getBundleForDestination(destination);
+      if (mainView.contains(el)) {
+        const wrapper = document.createElement('div');
+        wrapper.innerHTML = bundle.html;
+        el.replaceWith(wrapper.firstElementChild ?? wrapper);
+      }
+    } catch {
+      if (mainView.contains(el)) {
+        el.textContent = 'Failed to load content.';
+        el.classList.remove('item-card-loading');
+      }
+    }
+  }
+}
+
+// ─── Panel Search ────────────────────────────────────────────────────────────
+
+function buildPreviewSearchEntries() {
+  if (!app.previews) return [];
+  return [
+    ...Object.values(app.previews.rules),
+    ...Object.values(app.previews.glossary),
+  ];
+}
+
+function runPanelSearchImmediate(query, seen) {
+  const normalizedQuery = query.toLowerCase().trim();
+  if (!normalizedQuery) return [];
+
+  const entries = buildPreviewSearchEntries();
+  const results = [];
+
+  // Tier 1: exact title match (strip trailing dot for comparison)
+  for (const entry of entries) {
+    if (results.length >= CHEAT_SHEET_MAX_RESULTS) break;
+    const rawTitle = entry.title || entry.term || '';
+    const normalizedTitle = rawTitle.toLowerCase().replace(/\.$/, '');
+    if (normalizedTitle === normalizedQuery) {
+      const key = `${entry.pageId}|${entry.anchor ?? ''}`;
+      if (!seen.has(key)) {
+        seen.add(key);
+        results.push({
+          type: entry.type,
+          pageId: entry.pageId,
+          anchor: entry.anchor || null,
+          title: rawTitle.replace(/\.$/, ''),
+          subtitle: entry.type === 'rule' ? 'Rule' : 'Glossary',
+        });
+      }
+    }
+  }
+
+  // Tier 2: title starts-with (3+ chars)
+  if (normalizedQuery.length >= 3) {
+    for (const entry of entries) {
+      if (results.length >= CHEAT_SHEET_MAX_RESULTS) break;
+      const rawTitle = entry.title || entry.term || '';
+      const normalizedTitle = rawTitle.toLowerCase().replace(/\.$/, '');
+      if (normalizedTitle.startsWith(normalizedQuery)) {
+        const key = `${entry.pageId}|${entry.anchor ?? ''}`;
+        if (!seen.has(key)) {
+          seen.add(key);
+          results.push({
+            type: entry.type,
+            pageId: entry.pageId,
+            anchor: entry.anchor || null,
+            title: rawTitle.replace(/\.$/, ''),
+            subtitle: entry.type === 'rule' ? 'Rule' : 'Glossary',
+          });
+        }
+      }
+    }
+  }
+
+  return results;
+}
+
+function runPanelSearchScored(query, seen) {
+  if (!app.searchIndex) return [];
+  const normalizedQuery = query.trim();
+  if (!normalizedQuery) return [];
+
+  const documents = [
+    ...app.searchIndex.documents.rules,
+    ...app.searchIndex.documents.glossary,
+  ];
+
+  return documents
+    .filter(doc => {
+      const key = `${doc.pageId}|${doc.anchor ?? ''}`;
+      return !seen.has(key);
+    })
+    .map(doc => ({ doc, score: scoreDocument(doc, normalizedQuery) }))
+    .filter(e => e.score > 0)
+    .sort((a, b) => b.score - a.score || a.doc.title.localeCompare(b.doc.title))
+    .slice(0, CHEAT_SHEET_MAX_RESULTS)
+    .map(e => ({
+      type: e.doc.type === 'rule' ? 'rule' : 'glossary',
+      pageId: e.doc.pageId,
+      anchor: e.doc.anchor || null,
+      title: e.doc.title,
+      subtitle: e.doc.subtitle || (e.doc.type === 'rule' ? 'Rule' : 'Glossary'),
+    }));
+}
+
+function renderPanelSearchResults(resultsEl, results) {
+  if (!results.length) {
+    resultsEl.hidden = true;
+    resultsEl.innerHTML = '';
+    return;
+  }
+  resultsEl.hidden = false;
+  resultsEl.innerHTML = results.map(result => `
+    <li class="panel-search-result" role="option"
+        data-result-type="${escapeHtml(result.type)}"
+        data-result-pageid="${escapeHtml(result.pageId)}"
+        data-result-anchor="${escapeHtml(result.anchor || '')}">
+      <span class="result-title">${escapeHtml(result.title)}</span>
+      <span class="result-subtitle">${escapeHtml(result.subtitle)}</span>
+    </li>
+  `).join('');
+}
+
+function wirePanelSearchInput(input) {
+  const panelId = input.dataset.panelId;
+  let debounceTimer = null;
+  let seen = new Set();
+  let currentResults = [];
+
+  const getResultsEl = () => {
+    if (!mainView.contains(input)) return null;
+    return input.closest('.panel-search-wrapper')?.querySelector('.panel-search-results') || null;
+  };
+
+  const dismissResults = () => {
+    clearTimeout(debounceTimer);
+    debounceTimer = null;
+    input.value = '';
+    seen = new Set();
+    currentResults = [];
+    const resultsEl = getResultsEl();
+    if (resultsEl) {
+      resultsEl.hidden = true;
+      resultsEl.innerHTML = '';
+    }
+  };
+
+  input.addEventListener('input', () => {
+    const query = input.value;
+    const resultsEl = getResultsEl();
+    if (!resultsEl) return;
+
+    seen = new Set();
+    currentResults = [];
+
+    if (!query.trim()) {
+      clearTimeout(debounceTimer);
+      resultsEl.hidden = true;
+      resultsEl.innerHTML = '';
+      return;
+    }
+
+    // Tiers 1 + 2: immediate
+    currentResults = runPanelSearchImmediate(query, seen);
+    renderPanelSearchResults(resultsEl, currentResults);
+
+    // Tier 3: debounced
+    clearTimeout(debounceTimer);
+    const capturedSeen = new Set(seen);
+    debounceTimer = setTimeout(() => {
+      const scored = runPanelSearchScored(query, capturedSeen);
+      if (scored.length > 0 && mainView.contains(input)) {
+        currentResults = [...currentResults, ...scored].slice(0, CHEAT_SHEET_MAX_RESULTS);
+        const freshResultsEl = getResultsEl();
+        if (freshResultsEl) renderPanelSearchResults(freshResultsEl, currentResults);
+      }
+    }, CHEAT_SHEET_SEARCH_DEBOUNCE_MS);
+  });
+
+  input.addEventListener('keydown', e => {
+    if (e.key === 'Escape') {
+      e.stopPropagation();
+      dismissResults();
+    }
+  });
+
+  input.addEventListener('blur', () => {
+    setTimeout(() => {
+      const resultsEl = getResultsEl();
+      if (resultsEl && !resultsEl.contains(document.activeElement)) {
+        dismissResults();
+      }
+    }, 200);
+  });
+
+  // Result clicks via delegation on the results list
+  const resultsEl = getResultsEl();
+  if (resultsEl) {
+    resultsEl.addEventListener('mousedown', e => {
+      const resultEl = e.target.closest('.panel-search-result');
+      if (!resultEl) return;
+      e.preventDefault(); // prevent blur on input before click
+      const item = {
+        type: resultEl.dataset.resultType,
+        pageId: resultEl.dataset.resultPageid,
+        anchor: resultEl.dataset.resultAnchor || null,
+        label: null,
+        displayMode: 'link',
+      };
+      addItem(panelId, item);
+    });
+  }
+}
+
+// ─── Panel Drag-to-Reorder ───────────────────────────────────────────────────
+
+function startPanelDrag(panelId, pointerId, startX, startY) {
+  const panelIndex = app.cheatSheet.panels.findIndex(p => p.id === panelId);
+  if (panelIndex === -1) return;
+
+  const panelEl = mainView.querySelector(`.cheat-sheet-panel[data-panel-id="${CSS.escape(panelId)}"]`);
+  const headerEl = panelEl?.querySelector('.cheat-sheet-panel-header');
+  if (!panelEl || !headerEl) return;
+
+  const rect = panelEl.getBoundingClientRect();
+
+  // Floating clone
+  const panel = app.cheatSheet.panels[panelIndex];
+  const cloneEl = document.createElement('div');
+  cloneEl.className = 'panel-drag-clone';
+  cloneEl.style.width = `${rect.width}px`;
+  cloneEl.style.left = `${rect.left + window.scrollX}px`;
+  cloneEl.style.top = `${rect.top + window.scrollY}px`;
+  cloneEl.innerHTML = `<span class="drag-handle" aria-hidden="true">⠿</span><span>${escapeHtml(panel.title)}</span>`;
+  document.body.appendChild(cloneEl);
+
+  // Single drop indicator line (no grid disruption)
+  const indicatorEl = document.createElement('div');
+  indicatorEl.className = 'panel-drop-indicator';
+  document.body.appendChild(indicatorEl);
+
+  panelEl.classList.add('panel-dragging');
+
+  try {
+    headerEl.setPointerCapture(pointerId);
+  } catch {
+    // Pointer capture may fail in some environments.
+  }
+
+  panelDragState = { panelId, panelIndex, dropIndex: panelIndex, startX, startY, pointerId, cloneEl, indicatorEl };
+  document.addEventListener('keydown', onDragKeyDown);
+  positionDropIndicator(panelIndex);
+}
+
+function calculateDropIndex(cursorX) {
+  if (!panelDragState) return 0;
+  const gridEl = mainView.querySelector('.cheat-sheet-grid');
+  if (!gridEl) return panelDragState.panelIndex;
+
+  const panels = Array.from(gridEl.querySelectorAll('.cheat-sheet-panel:not(.panel-dragging)'));
+  for (let i = 0; i < panels.length; i++) {
+    const rect = panels[i].getBoundingClientRect();
+    if (cursorX < rect.left + rect.width / 2) {
+      return i;
+    }
+  }
+  return panels.length;
+}
+
+function positionDropIndicator(dropIndex) {
+  const { indicatorEl } = panelDragState;
+  const gridEl = mainView.querySelector('.cheat-sheet-grid');
+  if (!gridEl) return;
+
+  const panels = Array.from(gridEl.querySelectorAll('.cheat-sheet-panel:not(.panel-dragging)'));
+  const gridRect = gridEl.getBoundingClientRect();
+
+  let x;
+  if (panels.length === 0) {
+    x = gridRect.left;
+  } else if (dropIndex <= 0) {
+    x = panels[0].getBoundingClientRect().left;
+  } else if (dropIndex >= panels.length) {
+    x = panels[panels.length - 1].getBoundingClientRect().right;
+  } else {
+    const prevRight = panels[dropIndex - 1].getBoundingClientRect().right;
+    const nextLeft = panels[dropIndex].getBoundingClientRect().left;
+    x = (prevRight + nextLeft) / 2;
+  }
+
+  indicatorEl.style.left = `${x}px`;
+  indicatorEl.style.top = `${gridRect.top}px`;
+  indicatorEl.style.height = `${gridRect.height}px`;
+}
+
+function updatePanelDrag(clientX, clientY) {
+  if (!panelDragState) return;
+  const { cloneEl, startX, startY } = panelDragState;
+  cloneEl.style.transform = `translate(${clientX - startX}px, ${clientY - startY}px)`;
+
+  const dropIndex = calculateDropIndex(clientX);
+  panelDragState.dropIndex = dropIndex;
+  positionDropIndicator(dropIndex);
+}
+
+function finishPanelDrag(cancelled) {
+  if (!panelDragState) return;
+  const { panelIndex, dropIndex, cloneEl, indicatorEl } = panelDragState;
+
+  cloneEl.remove();
+  indicatorEl.remove();
+  document.removeEventListener('keydown', onDragKeyDown);
+  mainView.querySelector('.panel-dragging')?.classList.remove('panel-dragging');
+
+  const savedState = panelDragState;
+  panelDragState = null;
+
+  if (!cancelled && dropIndex !== panelIndex) {
+    reorderPanels(savedState.panelIndex, savedState.dropIndex);
+  }
+}
+
+function onDragKeyDown(e) {
+  if (e.key === 'Escape') finishPanelDrag(true);
+}
+
+// ─── Mode / Route helpers ────────────────────────────────────────────────────
+
 function updateModeForRoute(route) {
   const destination = normalizeDestination(route);
   if (destination) {
@@ -1251,7 +1863,7 @@ async function renderCurrentRoute(options = {}) {
   closeSidebarIfMobile();
 
   if (app.route.type === 'index') {
-    renderIndexPage();
+    renderCheatSheet();
     focusActiveSidebarLink();
     return;
   }
@@ -1424,6 +2036,41 @@ function handleReaderLinkNavigation({ paneName, pageId, anchor, samePage }) {
 }
 
 function onDocumentClick(event) {
+  // Cheat sheet actions
+  if (event.target.closest('[data-action="add-panel"]')) {
+    addPanel();
+    return;
+  }
+  const removePanelBtn = event.target.closest('[data-action="remove-panel"]');
+  if (removePanelBtn) {
+    removePanel(removePanelBtn.dataset.panelId);
+    return;
+  }
+  const toggleItemBtn = event.target.closest('[data-action="toggle-item-mode"]');
+  if (toggleItemBtn) {
+    const panelId = toggleItemBtn.dataset.panelId;
+    const itemIndex = parseInt(toggleItemBtn.dataset.itemIndex, 10);
+    const panel = app.cheatSheet?.panels.find(p => p.id === panelId);
+    const item = panel?.items[itemIndex];
+    if (item) {
+      setItemDisplayMode(panelId, itemIndex, item.displayMode === 'card' ? 'link' : 'card');
+    }
+    return;
+  }
+  const removeItemBtn = event.target.closest('[data-action="remove-item"]');
+  if (removeItemBtn) {
+    removeItem(removeItemBtn.dataset.panelId, parseInt(removeItemBtn.dataset.itemIndex, 10));
+    return;
+  }
+  if (event.target.closest('[data-action="export-cheat-sheet"]')) {
+    exportCheatSheet();
+    return;
+  }
+  if (event.target.closest('[data-action="import-cheat-sheet"]')) {
+    importCheatSheet();
+    return;
+  }
+
   const sidebarLink = event.target.closest('[data-target-route]');
   if (sidebarLink) {
     event.preventDefault();
@@ -1481,6 +2128,9 @@ function onDocumentPointerOver(event) {
 }
 
 function onDocumentPointerMove(event) {
+  if (panelDragState && panelDragState.pointerId === event.pointerId) {
+    updatePanelDrag(event.clientX, event.clientY);
+  }
   if (isMobileViewport() || app.tooltips.length === 0) {
     return;
   }
@@ -1535,6 +2185,21 @@ function onDocumentFocusIn(event) {
   openPreview(link);
 }
 
+function onDocumentPointerDown(event) {
+  const header = event.target.closest('.cheat-sheet-panel-header');
+  if (!header) return;
+  if (event.target.closest('button, input')) return;
+  const panelId = header.dataset.panelId;
+  if (!panelId) return;
+  event.preventDefault();
+  startPanelDrag(panelId, event.pointerId, event.clientX, event.clientY);
+}
+
+function onDocumentPointerUp(event) {
+  if (!panelDragState || panelDragState.pointerId !== event.pointerId) return;
+  finishPanelDrag(false);
+}
+
 function onPopState(event) {
   app.searchQuery = event.state?.searchQuery ?? app.searchQuery;
   void renderCurrentRoute({ useHistoryState: true, restoreScroll: true });
@@ -1565,6 +2230,7 @@ async function start() {
   app.navigation = navigation;
   app.searchIndex = searchIndex;
   app.previews = previews;
+  app.cheatSheet = loadCheatSheet();
   initializeSidebarCollapse();
   syncEffectiveDate();
   renderSidebar();
@@ -1586,8 +2252,10 @@ sidebarCollapseToggle?.addEventListener('click', () => setSidebarCollapsed(!desk
 window.addEventListener('popstate', onPopState);
 window.addEventListener('resize', onResize);
 document.addEventListener('click', onDocumentClick);
+document.addEventListener('pointerdown', onDocumentPointerDown);
 document.addEventListener('pointerover', onDocumentPointerOver);
 document.addEventListener('pointermove', onDocumentPointerMove);
+document.addEventListener('pointerup', onDocumentPointerUp);
 document.addEventListener('focusin', onDocumentFocusIn);
 document.addEventListener('rule-tooltip-open-request', onTooltipOpenRequest);
 document.addEventListener('rule-tooltip-close-request', onTooltipCloseRequest);
